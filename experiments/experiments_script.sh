@@ -23,6 +23,7 @@ function install_apk() {
   adb -s emulator-5558 install -r -d -g ~/droidbot/experiments/apps/AtimeTrack.apk
   sleep 10 # Aguardar o emulador instalar
   adb -s emulator-5560 install -r -d -g ~/droidbot/experiments/apps/AtimeTrack.apk
+  # adb -s emulator-5556 install -r -d -g ~/droidbot/experiments/apps/AtimeTrack.apk
   sleep 10 # Aguardar o emulador instalar
 }
 
@@ -32,12 +33,11 @@ function run_droidbot() {
   local output_dir="$2"
   local duration="60" # 2 horas em segundos 7200
 
-
-
-
   for emulator_port in 5556 5558 5560; do
     # Executar o comando DroidBot nos emuladores
     droidbot -a ~/droidbot/experiments/apps/AtimeTrack.apk -d emulator-$emulator_port -is_emulator -o ~/droidbot/experiments/saida-droidbot-$emulator_port -t $duration &
+    # droidbot -a ~/droidbot/experiments/apps/AtimeTrack.apk -d emulator-5556 -is_emulator -o ~/droidbot/experiments/saida-droidbot-5556
+
     sleep 5
   done
 }
@@ -50,6 +50,7 @@ function copy_coverage_files() {
 
   # Copiar o arquivo coverage.ec do emulador para a pasta local
   adb -s emulator-$emulator_port pull /sdcard/coverage.ec "$coverage_dir"
+  # adb -s emulator-5556 pull /sdcard/coverage.ec ~/droidbot/experiments/
 
   # Calcula os tempos em segundos para as cópias
   local duration_30=$((60 * 30 / 100))   # 30% do tempo

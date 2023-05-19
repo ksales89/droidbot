@@ -1,0 +1,49 @@
+{
+  "tag": "2023-05-18_193840",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.markuspage.android.atimetracker",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          70,
+          105
+        ],
+        [
+          1010,
+          189
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "A Time Tracker",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 7,
+      "size": "940*84",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]A Time Tracker[enabled,,]",
+      "view_str": "665a8b727d237e57faae0702d8566308",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    }
+  },
+  "start_state": "407f31f9478e944a426bbc6497056083",
+  "stop_state": "407f31f9478e944a426bbc6497056083",
+  "event_str": "TouchEvent(state=407f31f9478e944a426bbc6497056083, view=665a8b727d237e57faae0702d8566308(Tasks/TextView-A Time Tra))"
+}
