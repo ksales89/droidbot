@@ -50,15 +50,16 @@ function run_droidbot() {
 function copy_coverage_files(){
   local local_results_dir="$1"
   local emulator_port="$2"
+  local apk_name="$3"
   local coverage_dir="$local_results_dir/emulator_$emulator_port"
 
-  adb -s emulator-$emulator_port pull /sdcard/coverage.ec $local_results_dir/final_coverage-$emulator_port-AtimeTrack.ec
+  adb -s emulator-$emulator_port pull /sdcard/coverage.ec $local_results_dir/final_coverage-$emulator_port-$apk_name.ec
   
 }
 
 
 # Caminhos e diretórios
-apk_name=AtimeTrack
+apk_name=bettercounter
 apk_path=~/droidbot/experiments/apps/$apk_name.apk
 output_dir=~/droidbot/experiments/output/$apk_name
 local_results_dir=~/droidbot/experiments/results_cov
@@ -74,5 +75,5 @@ sleep 7200
 
 # Copiar o arquivo coverage.ec dos emuladores para a pasta local
 for emulator_port in 5556 5558 5560; do
-  copy_coverage_files "$local_results_dir" "$emulator_port"
+  copy_coverage_files "$local_results_dir" "$emulator_port" "$apk_name"
 done
