@@ -53,9 +53,7 @@ function copy_coverage_files(){
   local coverage_dir="$local_results_dir/emulator_$emulator_port"
 
   adb -s emulator-$emulator_port pull /sdcard/coverage.ec $local_results_dir/final_coverage-$emulator_port-AtimeTrack.ec
-  #adb -s emulator-5558 pull /sdcard/coverage.ec ~/droidbot/experiments/results_cov/final_coverage-5558-AtimeTrack.ec
-  #adb -s emulator-5560 pull /sdcard/coverage.ec ~/droidbot/experiments/results_cov/final_coverage-5560-AtimeTrack.ec
-
+  
 }
 
 
