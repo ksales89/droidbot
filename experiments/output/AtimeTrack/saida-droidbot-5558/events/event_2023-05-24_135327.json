@@ -1,0 +1,49 @@
+{
+  "tag": "2023-05-24_135327",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.markuspage.android.atimetracker",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          70,
+          928
+        ],
+        [
+          1010,
+          1054
+        ]
+      ],
+      "resource_id": "android:id/text1",
+      "checked": false,
+      "text": "Round to 30 minutes",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 8,
+      "size": "940*126",
+      "signature": "[class]android.widget.TextView[resource_id]android:id/text1[text]Round to 30 minutes[enabled,,]",
+      "view_str": "5d779cccf93045521b43c729c1cc71df",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]android:id/text1"
+    }
+  },
+  "start_state": "5f05a94b81b598814d2e2c86af6f389b",
+  "stop_state": "30b14078161a30580c3c566c427ce795",
+  "event_str": "TouchEvent(state=5f05a94b81b598814d2e2c86af6f389b, view=5d779cccf93045521b43c729c1cc71df(Settings/TextView-Round to 3))"
+}

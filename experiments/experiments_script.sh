@@ -15,6 +15,8 @@ function install_apk() {
   sleep 30 # Aguardar o emulador iniciar
   ~/Android/Sdk/emulator/emulator -avd emulator-teste3 -port 5560 -wipe-data -no-snapshot-save &
   sleep 30 # Aguardar o emulador iniciar
+  ~/Android/Sdk/emulator/emulator -avd emulator-teste4 -port 5554 -wipe-data -no-snapshot-save &
+  sleep 30 # Aguardar o emulador iniciar
 
 
   # Instalar APK com permissões de gravação no sdcard
@@ -26,6 +28,10 @@ function install_apk() {
 
   adb -s emulator-5560 install -r -d -g $apk_path
   sleep 10 # Aguardar o emulador instalar
+
+  adb -s emulator-5554 install -r -d -g $apk_path
+  sleep 10 # Aguardar o emulador instalar
+
 }
 
 # Função para executar o comando DroidBot nos emuladores
@@ -36,13 +42,14 @@ function run_droidbot() {
 
   droidbot -a $apk_path -d emulator-5556 -is_emulator -o $output_dir/saida-droidbot-5556 -t 7200 &
   sleep 5
-
- # droidbot -a ~/droidbot/experiments/apps/AtimeTrack.apk -d emulator-5558 -is_emulator -o ~/droidbot/experiments/saida-droidbot-5558 -t 60 &
+ 
   droidbot -a $apk_path -d emulator-5558 -is_emulator -o $output_dir/saida-droidbot-5558 -t 7200 &
   sleep 5
 
-#  droidbot -a ~/droidbot/experiments/apps/AtimeTrack.apk -d emulator-5560 -is_emulator -o ~/droidbot/experiments/saida-droidbot-5560 -t 60 &
   droidbot -a $apk_path -d emulator-5560 -is_emulator -o $output_dir/saida-droidbot-5560 -t 7200 &
+  sleep 5
+
+  droidbot -a $apk_path -d emulator-5554 -is_emulator -o $output_dir/saida-droidbot-5554 -t 7200 &
   sleep 5
 
 }
@@ -59,7 +66,7 @@ function copy_coverage_files(){
 
 
 # Caminhos e diretórios
-apk_name=bettercounter
+apk_name=budgetwatch
 apk_path=~/droidbot/experiments/apps/$apk_name.apk
 output_dir=~/droidbot/experiments/output/$apk_name
 local_results_dir=~/droidbot/experiments/results_cov
@@ -74,6 +81,6 @@ run_droidbot "$apk_path" "$output_dir"
 sleep 7200
 
 # Copiar o arquivo coverage.ec dos emuladores para a pasta local
-for emulator_port in 5556 5558 5560; do
+for emulator_port in 5556 5558 5560 5554; do
   copy_coverage_files "$local_results_dir" "$emulator_port" "$apk_name"
 done

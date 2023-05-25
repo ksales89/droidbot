@@ -1,0 +1,4512 @@
+{
+  "tag": "2023-05-24_150625",
+  "state_str": "dc94320fec4aaf46d71c970fd0d3438b",
+  "state_str_content_free": "9877ece82de00cedcca8a3cd455065f1",
+  "foreground_activity": "org.kde.bettercounter.debug/org.kde.bettercounter.ui.MainActivity",
+  "activity_stack": [
+    "org.kde.bettercounter.debug/org.kde.bettercounter.ui.MainActivity"
+  ],
+  "background_services": [
+    "com.google.android.networkstack.tethering/com.android.networkstack.tethering.TetheringService",
+    "com.google.android.gms/.nearby.sharing.ReceiveSurfaceService",
+    "com.google.android.gms/.deviceconnection.service.DeviceConnectionWatcherService",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.android.bluetooth/.btservice.AdapterService",
+    "com.google.android.gms/.instantapps.service.InstantAppsService",
+    "com.android.systemui/.ImageWallpaper",
+    "com.google.android.gms/.auth.setup.devicesignals.LockScreenService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.gms/.auth.proximity.firstparty.SystemMemoryCacheService",
+    "com.google.android.gms/.chimera.PersistentApiServiceNoInstantApps",
+    "com.google.android.gms/.location.geocode.GeocodeService",
+    "com.android.phone/com.android.internal.telephony.CellularNetworkService",
+    "com.google.android.gms/com.google.location.nearby.direct.service.NearbyDirectService",
+    "com.google.android.gms/.chimera.PersistentBoundBrokerService",
+    "com.android.bluetooth/.gatt.GattService",
+    "com.google.android.gms/.fido.fido2.pollux.CableAuthenticatorService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.android.bluetooth/.pbap.BluetoothPbapService",
+    "com.google.android.gms/com.google.android.location.fused.FusedLocationService",
+    "com.google.android.gms/.gcm.nts.SchedulerService",
+    "com.google.android.ext.services/android.ext.services.autofill.InlineSuggestionRenderServiceImpl",
+    "com.google.android.setupwizard/.logging.ScreenOnClock",
+    "com.android.bluetooth/.a2dp.A2dpService",
+    "com.google.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nga.engine.viss.NgaService",
+    "com.google.android.gms/.thunderbird.EmergencyPersistentService",
+    "com.google.android.apps.nexuslauncher/com.android.launcher3.notification.NotificationListener",
+    "com.android.systemui/.SystemUIService",
+    "com.google.android.gms/.nearby.exposurenotification.service.ExposureMatchingService",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.android.se/.SecureElementService",
+    "com.google.android.gms/.presencemanager.service.PresenceManagerPresenceReportService",
+    "com.google.android.ims/.services.RcsService",
+    "com.google.android.gms/.chimera.PersistentDirectBootAwareApiService",
+    "com.android.bluetooth/.hid.HidDeviceService",
+    "com.google.android.ext.services/android.ext.services.notification.Assistant",
+    "com.google.android.gms/.location.persistent.LocationPersistentService",
+    "com.google.android.gms/.nearby.discovery.service.DiscoveryService",
+    "com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService",
+    "com.google.android.gms/.nearby.messages.service.NearbyMessagesService",
+    "com.android.server.telecom/.components.BluetoothPhoneService",
+    "com.google.android.gms/.fido.authenticator.service.AuthenticatorService",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService",
+    "com.android.systemui/.dump.SystemUIAuxiliaryDumpService",
+    "com.google.android.gms/com.google.android.location.network.NetworkLocationService",
+    "com.android.stk/.StkAppService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.android.phone/com.android.internal.telephony.dataconnection.CellularDataService",
+    "com.android.service.ims/.RcsService",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.google.android.networkstack/com.android.server.NetworkStackService",
+    "com.android.bluetooth/.hfp.HeadsetService",
+    "com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService",
+    "com.android.emulator.multidisplay/.MultiDisplayService",
+    "com.android.phone/.vvm.RemoteVvmTaskManager",
+    "com.android.ons/.OpportunisticNetworkService",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService",
+    "com.android.bluetooth/.map.BluetoothMapService",
+    "com.android.phone/com.android.services.telephony.sip.components.TelephonySipService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.android.bluetooth/.hid.HidHostService",
+    "com.android.bluetooth/.opp.BluetoothOppService",
+    "com.android.bluetooth/.pan.PanService",
+    "com.android.bluetooth/.avrcp.AvrcpTargetService",
+    "com.google.android.apps.nexuslauncher/com.android.quickstep.TouchInteractionService",
+    "com.google.android.cellbroadcastservice/com.android.cellbroadcastservice.DefaultCellBroadcastService"
+  ],
+  "width": 1080,
+  "height": 1920,
+  "views": [
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        1
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          120,
+          247
+        ],
+        [
+          960,
+          1610
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "840*1363",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "54879ce400c8ba15da2f29981aac70ee",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        2
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          162,
+          289
+        ],
+        [
+          918,
+          1568
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "756*1279",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "8c078ade7c78c4d9a2bcd130f0101ccf",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        3
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          162,
+          289
+        ],
+        [
+          918,
+          1568
+        ]
+      ],
+      "resource_id": "android:id/content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "756*1279",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[text]None[enabled,,]",
+      "view_str": "17a8023787eca1aaeb8d6e3ba8671155",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]android:id/content"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        4,
+        112
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          162,
+          289
+        ],
+        [
+          918,
+          1568
+        ]
+      ],
+      "resource_id": "android:id/parentPanel",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "756*1279",
+      "signature": "[class]android.widget.LinearLayout[resource_id]android:id/parentPanel[text]None[enabled,,]",
+      "view_str": "68fb47166c5379658c842768ecd6d074",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]android:id/parentPanel"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        5
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          162,
+          289
+        ],
+        [
+          918,
+          1420
+        ]
+      ],
+      "resource_id": "android:id/customPanel",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "756*1131",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/customPanel[text]None[enabled,,]",
+      "view_str": "7268b6fa5bb8153838678c0abc14c74f",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]android:id/customPanel"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        6
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          162,
+          289
+        ],
+        [
+          918,
+          1420
+        ]
+      ],
+      "resource_id": "android:id/custom",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "756*1131",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/custom[text]None[enabled,,]",
+      "view_str": "17a0fa5273d9ad4700ef971f148c0208",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]android:id/custom"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        7
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          162,
+          289
+        ],
+        [
+          918,
+          1420
+        ]
+      ],
+      "resource_id": "android:id/datePicker",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.DatePicker",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "756*1131",
+      "signature": "[class]android.widget.DatePicker[resource_id]android:id/datePicker[text]None[enabled,,]",
+      "view_str": "d3c008a36d3591a15947cd271d49dedb",
+      "content_free_signature": "[class]android.widget.DatePicker[resource_id]android:id/datePicker"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        8,
+        12
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          162,
+          289
+        ],
+        [
+          918,
+          1420
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 7,
+      "size": "756*1131",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "f0e49ee949ce81b15d0fb20d5e579166",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        9
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          162,
+          289
+        ],
+        [
+          918,
+          532
+        ]
+      ],
+      "resource_id": "android:id/date_picker_header",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 8,
+      "size": "756*243",
+      "signature": "[class]android.widget.LinearLayout[resource_id]android:id/date_picker_header[text]None[enabled,,]",
+      "view_str": "8a3df9190b4c8311f73dcad01920fb2c",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]android:id/date_picker_header"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        10,
+        11
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          162,
+          289
+        ],
+        [
+          918,
+          532
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 8,
+      "temp_id": 9,
+      "size": "756*243",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "4417e18a3fd11eff13cf1ba4700c23c0",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          204,
+          310
+        ],
+        [
+          342,
+          401
+        ]
+      ],
+      "resource_id": "android:id/date_picker_header_year",
+      "checked": false,
+      "text": "2001",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 10,
+      "size": "138*91",
+      "signature": "[class]android.widget.TextView[resource_id]android:id/date_picker_header_year[text]2001[enabled,,]",
+      "view_str": "b814e3c6f3e1d5d1855a9c6a52061a03",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]android:id/date_picker_header_year"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          225,
+          380
+        ],
+        [
+          657,
+          485
+        ]
+      ],
+      "resource_id": "android:id/date_picker_header_date",
+      "checked": false,
+      "text": "Tue, May 8",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 11,
+      "size": "432*105",
+      "signature": "[class]android.widget.TextView[resource_id]android:id/date_picker_header_date[text]Tue, May 8[enabled,,]",
+      "view_str": "26edd5ef956cf324ae944a4c6697dba9",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]android:id/date_picker_header_date"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        13
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          162,
+          532
+        ],
+        [
+          918,
+          1420
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ScrollView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 12,
+      "size": "756*888",
+      "signature": "[class]android.widget.ScrollView[resource_id]None[text]None[enabled,,]",
+      "view_str": "75228a742ed21a15b1c55240ee0827a9",
+      "content_free_signature": "[class]android.widget.ScrollView[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        14
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          162,
+          532
+        ],
+        [
+          918,
+          1420
+        ]
+      ],
+      "resource_id": "android:id/animator",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ViewAnimator",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 13,
+      "size": "756*888",
+      "signature": "[class]android.widget.ViewAnimator[resource_id]android:id/animator[text]None[enabled,,]",
+      "view_str": "bdeb28bf22542a99b3711fcbb3637801",
+      "content_free_signature": "[class]android.widget.ViewAnimator[resource_id]android:id/animator"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        15,
+        110,
+        111
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          162,
+          532
+        ],
+        [
+          918,
+          1420
+        ]
+      ],
+      "resource_id": "android:id/date_picker_day_picker",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 13,
+      "temp_id": 14,
+      "size": "756*888",
+      "signature": "[class]android.view.ViewGroup[resource_id]android:id/date_picker_day_picker[text]None[enabled,,]",
+      "view_str": "59de5abff8b2e596e715e88c25c57a55",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]android:id/date_picker_day_picker"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        16,
+        47,
+        79
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          162,
+          532
+        ],
+        [
+          918,
+          1420
+        ]
+      ],
+      "resource_id": "android:id/day_picker_view_pager",
+      "checked": false,
+      "text": null,
+      "class": "com.android.internal.widget.ViewPager",
+      "scrollable": true,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 15,
+      "size": "756*888",
+      "signature": "[class]com.android.internal.widget.ViewPager[resource_id]android:id/day_picker_view_pager[text]None[enabled,,]",
+      "view_str": "d46a84b58e5eb35b6d1bb8332cd2e86a",
+      "content_free_signature": "[class]com.android.internal.widget.ViewPager[resource_id]android:id/day_picker_view_pager"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 30,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          162,
+          532
+        ],
+        [
+          162,
+          1420
+        ]
+      ],
+      "resource_id": "android:id/month_view",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 15,
+      "temp_id": 16,
+      "size": "0*888",
+      "signature": "[class]android.view.View[resource_id]android:id/month_view[text]None[enabled,,]",
+      "view_str": "7a5c564114cc0f35e0d92a522fae46d1",
+      "content_free_signature": "[class]android.view.View[resource_id]android:id/month_view"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "01 April 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          -541,
+          790
+        ],
+        [
+          -449,
+          895
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "1",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 17,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]1[enabled,,]",
+      "view_str": "0b90d06e4971a4bc9453f6671237b826",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "02 April 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          -449,
+          790
+        ],
+        [
+          -357,
+          895
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "2",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 18,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]2[enabled,,]",
+      "view_str": "6f2279cbddad9d7f1345ef0b6003ab3a",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "03 April 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          -357,
+          790
+        ],
+        [
+          -265,
+          895
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "3",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 19,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]3[enabled,,]",
+      "view_str": "94f496c7e93d7b3fe669bc8a090a4fcd",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "04 April 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          -265,
+          790
+        ],
+        [
+          -173,
+          895
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "4",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 20,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]4[enabled,,]",
+      "view_str": "be1a12e0ac34856fd55409f29c511a74",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "05 April 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          -173,
+          790
+        ],
+        [
+          -81,
+          895
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "5",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 21,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]5[enabled,,]",
+      "view_str": "c7c7bd374b6770ec41a961a3f4784ba0",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "06 April 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          -81,
+          790
+        ],
+        [
+          11,
+          895
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "6",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 22,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]6[enabled,,]",
+      "view_str": "0f9d67ceab75a7d586f12a6195319ec5",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "07 April 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          11,
+          790
+        ],
+        [
+          103,
+          895
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "7",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 23,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]7[enabled,,]",
+      "view_str": "247996ebc45e50f29b407151dccfc03a",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "08 April 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          -541,
+          895
+        ],
+        [
+          -449,
+          1000
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "8",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 24,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]8[enabled,,]",
+      "view_str": "91e1cf0891fec1d80510d4fbca074140",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "09 April 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          -449,
+          895
+        ],
+        [
+          -357,
+          1000
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "9",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 25,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]9[enabled,,]",
+      "view_str": "8de8fdc24569420d1209a0a5e3f12dc9",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "10 April 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          -357,
+          895
+        ],
+        [
+          -265,
+          1000
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "10",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 26,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]10[enabled,,]",
+      "view_str": "82c22a1e6910467b4db3e995edfbf36e",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "11 April 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          -265,
+          895
+        ],
+        [
+          -173,
+          1000
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "11",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 27,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]11[enabled,,]",
+      "view_str": "d58ff0e44bdc423311a7ee7e74e79fd9",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "12 April 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          -173,
+          895
+        ],
+        [
+          -81,
+          1000
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "12",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 28,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]12[enabled,,]",
+      "view_str": "aac003b95ea1829e3c224f4aefea53fa",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "13 April 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          -81,
+          895
+        ],
+        [
+          11,
+          1000
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "13",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 29,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]13[enabled,,]",
+      "view_str": "14d66b8b90e46b64b6787723c2ab9062",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "14 April 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          11,
+          895
+        ],
+        [
+          103,
+          1000
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "14",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 30,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]14[enabled,,]",
+      "view_str": "29f5221408ce66e92ef26a9e80be2716",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "15 April 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          -541,
+          1000
+        ],
+        [
+          -449,
+          1105
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "15",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 31,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]15[enabled,,]",
+      "view_str": "9168699153156c64257ec6b37e8710d1",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "16 April 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          -449,
+          1000
+        ],
+        [
+          -357,
+          1105
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "16",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 32,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]16[enabled,,]",
+      "view_str": "2742da010e1a3364bdbe9487987897a5",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "17 April 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          -357,
+          1000
+        ],
+        [
+          -265,
+          1105
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "17",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 33,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]17[enabled,,]",
+      "view_str": "6dd523ebc2e8d5c1b4b261567b3689f4",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "18 April 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          -265,
+          1000
+        ],
+        [
+          -173,
+          1105
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "18",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 34,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]18[enabled,,]",
+      "view_str": "43150d83e1f350460d8ce096c944c977",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "19 April 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          -173,
+          1000
+        ],
+        [
+          -81,
+          1105
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "19",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 35,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]19[enabled,,]",
+      "view_str": "9c3a401bac6bf918e77f2bb646e91066",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "20 April 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          -81,
+          1000
+        ],
+        [
+          11,
+          1105
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "20",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 36,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]20[enabled,,]",
+      "view_str": "b143c91fc50ff93399bf69df111818db",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "21 April 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          11,
+          1000
+        ],
+        [
+          103,
+          1105
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "21",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 37,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]21[enabled,,]",
+      "view_str": "5de0732ddec78ba5e0f729505bba869c",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "22 April 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          -541,
+          1105
+        ],
+        [
+          -449,
+          1210
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "22",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 38,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]22[enabled,,]",
+      "view_str": "1e1d07d7c1aada7703998a5630927beb",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "23 April 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          -449,
+          1105
+        ],
+        [
+          -357,
+          1210
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "23",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 39,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]23[enabled,,]",
+      "view_str": "3febe1e0a274b58227cd61da4005f0e5",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "24 April 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          -357,
+          1105
+        ],
+        [
+          -265,
+          1210
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "24",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 40,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]24[enabled,,]",
+      "view_str": "d2c58a72ba548285073488ba58ce87fa",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "25 April 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          -265,
+          1105
+        ],
+        [
+          -173,
+          1210
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "25",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 41,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]25[enabled,,]",
+      "view_str": "1a66c0589a245733c3067b85e4478f0b",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "26 April 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          -173,
+          1105
+        ],
+        [
+          -81,
+          1210
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "26",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 42,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]26[enabled,,]",
+      "view_str": "dfcd2d5df5e3908a884d575b66a89949",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "27 April 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          -81,
+          1105
+        ],
+        [
+          11,
+          1210
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "27",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 43,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]27[enabled,,]",
+      "view_str": "37a24a6aba93405b301e5bb48b8e9414",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "28 April 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          11,
+          1105
+        ],
+        [
+          103,
+          1210
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "28",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 44,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]28[enabled,,]",
+      "view_str": "afd61da50aff415af43d29e92a8889df",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "29 April 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          -541,
+          1210
+        ],
+        [
+          -449,
+          1315
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "29",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 45,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]29[enabled,,]",
+      "view_str": "084b1d448aebf2567dcc1acabe89fa0d",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "30 April 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          -449,
+          1210
+        ],
+        [
+          -357,
+          1315
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "30",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 46,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]30[enabled,,]",
+      "view_str": "7d762ddc95d84e37b0b7137daaed61d2",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 31,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          162,
+          532
+        ],
+        [
+          918,
+          1420
+        ]
+      ],
+      "resource_id": "android:id/month_view",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 15,
+      "temp_id": 47,
+      "size": "756*888",
+      "signature": "[class]android.view.View[resource_id]android:id/month_view[text]None[enabled,,]",
+      "view_str": "773d56e07b7b4db444b2c1549594b0bb",
+      "content_free_signature": "[class]android.view.View[resource_id]android:id/month_view"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "01 May 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          399,
+          790
+        ],
+        [
+          491,
+          895
+        ]
+      ],
+      "resource_id": null,
+      "checked": true,
+      "text": "1",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": true,
+      "long_clickable": false,
+      "parent": 47,
+      "temp_id": 48,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]1[enabled,checked,selected]",
+      "view_str": "9564b15ed247bf4d7d9444a637bd5316",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "02 May 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          491,
+          790
+        ],
+        [
+          583,
+          895
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "2",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 47,
+      "temp_id": 49,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]2[enabled,,]",
+      "view_str": "6f2279cbddad9d7f1345ef0b6003ab3a",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "03 May 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          583,
+          790
+        ],
+        [
+          675,
+          895
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "3",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 47,
+      "temp_id": 50,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]3[enabled,,]",
+      "view_str": "94f496c7e93d7b3fe669bc8a090a4fcd",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "04 May 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          675,
+          790
+        ],
+        [
+          767,
+          895
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "4",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 47,
+      "temp_id": 51,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]4[enabled,,]",
+      "view_str": "be1a12e0ac34856fd55409f29c511a74",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "05 May 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          767,
+          790
+        ],
+        [
+          859,
+          895
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "5",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 47,
+      "temp_id": 52,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]5[enabled,,]",
+      "view_str": "c7c7bd374b6770ec41a961a3f4784ba0",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "06 May 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          215,
+          895
+        ],
+        [
+          307,
+          1000
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "6",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 47,
+      "temp_id": 53,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]6[enabled,,]",
+      "view_str": "0f9d67ceab75a7d586f12a6195319ec5",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "07 May 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          307,
+          895
+        ],
+        [
+          399,
+          1000
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "7",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 47,
+      "temp_id": 54,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]7[enabled,,]",
+      "view_str": "247996ebc45e50f29b407151dccfc03a",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "08 May 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          399,
+          895
+        ],
+        [
+          491,
+          1000
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "8",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 47,
+      "temp_id": 55,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]8[enabled,,]",
+      "view_str": "91e1cf0891fec1d80510d4fbca074140",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "09 May 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          491,
+          895
+        ],
+        [
+          583,
+          1000
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "9",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 47,
+      "temp_id": 56,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]9[enabled,,]",
+      "view_str": "8de8fdc24569420d1209a0a5e3f12dc9",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "10 May 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          583,
+          895
+        ],
+        [
+          675,
+          1000
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "10",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 47,
+      "temp_id": 57,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]10[enabled,,]",
+      "view_str": "82c22a1e6910467b4db3e995edfbf36e",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "11 May 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          675,
+          895
+        ],
+        [
+          767,
+          1000
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "11",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 47,
+      "temp_id": 58,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]11[enabled,,]",
+      "view_str": "d58ff0e44bdc423311a7ee7e74e79fd9",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "12 May 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          767,
+          895
+        ],
+        [
+          859,
+          1000
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "12",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 47,
+      "temp_id": 59,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]12[enabled,,]",
+      "view_str": "aac003b95ea1829e3c224f4aefea53fa",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "13 May 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          215,
+          1000
+        ],
+        [
+          307,
+          1105
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "13",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 47,
+      "temp_id": 60,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]13[enabled,,]",
+      "view_str": "14d66b8b90e46b64b6787723c2ab9062",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "14 May 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          307,
+          1000
+        ],
+        [
+          399,
+          1105
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "14",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 47,
+      "temp_id": 61,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]14[enabled,,]",
+      "view_str": "29f5221408ce66e92ef26a9e80be2716",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "15 May 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          399,
+          1000
+        ],
+        [
+          491,
+          1105
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "15",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 47,
+      "temp_id": 62,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]15[enabled,,]",
+      "view_str": "9168699153156c64257ec6b37e8710d1",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "16 May 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          491,
+          1000
+        ],
+        [
+          583,
+          1105
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "16",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 47,
+      "temp_id": 63,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]16[enabled,,]",
+      "view_str": "2742da010e1a3364bdbe9487987897a5",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "17 May 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          583,
+          1000
+        ],
+        [
+          675,
+          1105
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "17",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 47,
+      "temp_id": 64,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]17[enabled,,]",
+      "view_str": "6dd523ebc2e8d5c1b4b261567b3689f4",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "18 May 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          675,
+          1000
+        ],
+        [
+          767,
+          1105
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "18",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 47,
+      "temp_id": 65,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]18[enabled,,]",
+      "view_str": "43150d83e1f350460d8ce096c944c977",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "19 May 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          767,
+          1000
+        ],
+        [
+          859,
+          1105
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "19",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 47,
+      "temp_id": 66,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]19[enabled,,]",
+      "view_str": "9c3a401bac6bf918e77f2bb646e91066",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "20 May 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          215,
+          1105
+        ],
+        [
+          307,
+          1210
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "20",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 47,
+      "temp_id": 67,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]20[enabled,,]",
+      "view_str": "b143c91fc50ff93399bf69df111818db",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "21 May 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          307,
+          1105
+        ],
+        [
+          399,
+          1210
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "21",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 47,
+      "temp_id": 68,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]21[enabled,,]",
+      "view_str": "5de0732ddec78ba5e0f729505bba869c",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "22 May 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          399,
+          1105
+        ],
+        [
+          491,
+          1210
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "22",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 47,
+      "temp_id": 69,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]22[enabled,,]",
+      "view_str": "1e1d07d7c1aada7703998a5630927beb",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "23 May 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          491,
+          1105
+        ],
+        [
+          583,
+          1210
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "23",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 47,
+      "temp_id": 70,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]23[enabled,,]",
+      "view_str": "3febe1e0a274b58227cd61da4005f0e5",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "24 May 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          583,
+          1105
+        ],
+        [
+          675,
+          1210
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "24",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 47,
+      "temp_id": 71,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]24[enabled,,]",
+      "view_str": "d2c58a72ba548285073488ba58ce87fa",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "25 May 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          675,
+          1105
+        ],
+        [
+          767,
+          1210
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "25",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 47,
+      "temp_id": 72,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]25[enabled,,]",
+      "view_str": "1a66c0589a245733c3067b85e4478f0b",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "26 May 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          767,
+          1105
+        ],
+        [
+          859,
+          1210
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "26",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 47,
+      "temp_id": 73,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]26[enabled,,]",
+      "view_str": "dfcd2d5df5e3908a884d575b66a89949",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "27 May 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          215,
+          1210
+        ],
+        [
+          307,
+          1315
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "27",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 47,
+      "temp_id": 74,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]27[enabled,,]",
+      "view_str": "37a24a6aba93405b301e5bb48b8e9414",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "28 May 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          307,
+          1210
+        ],
+        [
+          399,
+          1315
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "28",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 47,
+      "temp_id": 75,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]28[enabled,,]",
+      "view_str": "afd61da50aff415af43d29e92a8889df",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "29 May 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          399,
+          1210
+        ],
+        [
+          491,
+          1315
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "29",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 47,
+      "temp_id": 76,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]29[enabled,,]",
+      "view_str": "084b1d448aebf2567dcc1acabe89fa0d",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "30 May 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          491,
+          1210
+        ],
+        [
+          583,
+          1315
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "30",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 47,
+      "temp_id": 77,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]30[enabled,,]",
+      "view_str": "7d762ddc95d84e37b0b7137daaed61d2",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "31 May 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          583,
+          1210
+        ],
+        [
+          675,
+          1315
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "31",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 47,
+      "temp_id": 78,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]31[enabled,,]",
+      "view_str": "b91d83a16bac7de02beb1b5b3abe080b",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 30,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          918,
+          532
+        ],
+        [
+          918,
+          1420
+        ]
+      ],
+      "resource_id": "android:id/month_view",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 15,
+      "temp_id": 79,
+      "size": "0*888",
+      "signature": "[class]android.view.View[resource_id]android:id/month_view[text]None[enabled,,]",
+      "view_str": "7a5c564114cc0f35e0d92a522fae46d1",
+      "content_free_signature": "[class]android.view.View[resource_id]android:id/month_view"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "01 June 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1431,
+          790
+        ],
+        [
+          1523,
+          895
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "1",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 79,
+      "temp_id": 80,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]1[enabled,,]",
+      "view_str": "0b90d06e4971a4bc9453f6671237b826",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "02 June 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1523,
+          790
+        ],
+        [
+          1615,
+          895
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "2",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 79,
+      "temp_id": 81,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]2[enabled,,]",
+      "view_str": "6f2279cbddad9d7f1345ef0b6003ab3a",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "03 June 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          971,
+          895
+        ],
+        [
+          1063,
+          1000
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "3",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 79,
+      "temp_id": 82,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]3[enabled,,]",
+      "view_str": "94f496c7e93d7b3fe669bc8a090a4fcd",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "04 June 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1063,
+          895
+        ],
+        [
+          1155,
+          1000
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "4",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 79,
+      "temp_id": 83,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]4[enabled,,]",
+      "view_str": "be1a12e0ac34856fd55409f29c511a74",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "05 June 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1155,
+          895
+        ],
+        [
+          1247,
+          1000
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "5",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 79,
+      "temp_id": 84,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]5[enabled,,]",
+      "view_str": "c7c7bd374b6770ec41a961a3f4784ba0",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "06 June 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1247,
+          895
+        ],
+        [
+          1339,
+          1000
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "6",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 79,
+      "temp_id": 85,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]6[enabled,,]",
+      "view_str": "0f9d67ceab75a7d586f12a6195319ec5",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "07 June 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1339,
+          895
+        ],
+        [
+          1431,
+          1000
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "7",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 79,
+      "temp_id": 86,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]7[enabled,,]",
+      "view_str": "247996ebc45e50f29b407151dccfc03a",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "08 June 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1431,
+          895
+        ],
+        [
+          1523,
+          1000
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "8",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 79,
+      "temp_id": 87,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]8[enabled,,]",
+      "view_str": "91e1cf0891fec1d80510d4fbca074140",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "09 June 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1523,
+          895
+        ],
+        [
+          1615,
+          1000
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "9",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 79,
+      "temp_id": 88,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]9[enabled,,]",
+      "view_str": "8de8fdc24569420d1209a0a5e3f12dc9",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "10 June 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          971,
+          1000
+        ],
+        [
+          1063,
+          1105
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "10",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 79,
+      "temp_id": 89,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]10[enabled,,]",
+      "view_str": "82c22a1e6910467b4db3e995edfbf36e",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "11 June 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1063,
+          1000
+        ],
+        [
+          1155,
+          1105
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "11",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 79,
+      "temp_id": 90,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]11[enabled,,]",
+      "view_str": "d58ff0e44bdc423311a7ee7e74e79fd9",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "12 June 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1155,
+          1000
+        ],
+        [
+          1247,
+          1105
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "12",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 79,
+      "temp_id": 91,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]12[enabled,,]",
+      "view_str": "aac003b95ea1829e3c224f4aefea53fa",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "13 June 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1247,
+          1000
+        ],
+        [
+          1339,
+          1105
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "13",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 79,
+      "temp_id": 92,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]13[enabled,,]",
+      "view_str": "14d66b8b90e46b64b6787723c2ab9062",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "14 June 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1339,
+          1000
+        ],
+        [
+          1431,
+          1105
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "14",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 79,
+      "temp_id": 93,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]14[enabled,,]",
+      "view_str": "29f5221408ce66e92ef26a9e80be2716",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "15 June 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1431,
+          1000
+        ],
+        [
+          1523,
+          1105
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "15",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 79,
+      "temp_id": 94,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]15[enabled,,]",
+      "view_str": "9168699153156c64257ec6b37e8710d1",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "16 June 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1523,
+          1000
+        ],
+        [
+          1615,
+          1105
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "16",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 79,
+      "temp_id": 95,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]16[enabled,,]",
+      "view_str": "2742da010e1a3364bdbe9487987897a5",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "17 June 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          971,
+          1105
+        ],
+        [
+          1063,
+          1210
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "17",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 79,
+      "temp_id": 96,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]17[enabled,,]",
+      "view_str": "6dd523ebc2e8d5c1b4b261567b3689f4",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "18 June 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1063,
+          1105
+        ],
+        [
+          1155,
+          1210
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "18",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 79,
+      "temp_id": 97,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]18[enabled,,]",
+      "view_str": "43150d83e1f350460d8ce096c944c977",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "19 June 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1155,
+          1105
+        ],
+        [
+          1247,
+          1210
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "19",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 79,
+      "temp_id": 98,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]19[enabled,,]",
+      "view_str": "9c3a401bac6bf918e77f2bb646e91066",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "20 June 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1247,
+          1105
+        ],
+        [
+          1339,
+          1210
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "20",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 79,
+      "temp_id": 99,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]20[enabled,,]",
+      "view_str": "b143c91fc50ff93399bf69df111818db",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "21 June 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1339,
+          1105
+        ],
+        [
+          1431,
+          1210
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "21",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 79,
+      "temp_id": 100,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]21[enabled,,]",
+      "view_str": "5de0732ddec78ba5e0f729505bba869c",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "22 June 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1431,
+          1105
+        ],
+        [
+          1523,
+          1210
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "22",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 79,
+      "temp_id": 101,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]22[enabled,,]",
+      "view_str": "1e1d07d7c1aada7703998a5630927beb",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "23 June 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1523,
+          1105
+        ],
+        [
+          1615,
+          1210
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "23",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 79,
+      "temp_id": 102,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]23[enabled,,]",
+      "view_str": "3febe1e0a274b58227cd61da4005f0e5",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "24 June 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          971,
+          1210
+        ],
+        [
+          1063,
+          1315
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "24",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 79,
+      "temp_id": 103,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]24[enabled,,]",
+      "view_str": "d2c58a72ba548285073488ba58ce87fa",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "25 June 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1063,
+          1210
+        ],
+        [
+          1155,
+          1315
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "25",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 79,
+      "temp_id": 104,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]25[enabled,,]",
+      "view_str": "1a66c0589a245733c3067b85e4478f0b",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "26 June 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1155,
+          1210
+        ],
+        [
+          1247,
+          1315
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "26",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 79,
+      "temp_id": 105,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]26[enabled,,]",
+      "view_str": "dfcd2d5df5e3908a884d575b66a89949",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "27 June 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1247,
+          1210
+        ],
+        [
+          1339,
+          1315
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "27",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 79,
+      "temp_id": 106,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]27[enabled,,]",
+      "view_str": "37a24a6aba93405b301e5bb48b8e9414",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "28 June 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1339,
+          1210
+        ],
+        [
+          1431,
+          1315
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "28",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 79,
+      "temp_id": 107,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]28[enabled,,]",
+      "view_str": "afd61da50aff415af43d29e92a8889df",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "29 June 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1431,
+          1210
+        ],
+        [
+          1523,
+          1315
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "29",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 79,
+      "temp_id": 108,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]29[enabled,,]",
+      "view_str": "084b1d448aebf2567dcc1acabe89fa0d",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "30 June 2001",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1523,
+          1210
+        ],
+        [
+          1615,
+          1315
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "30",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 79,
+      "temp_id": 109,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]30[enabled,,]",
+      "view_str": "7d762ddc95d84e37b0b7137daaed61d2",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Previous month",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          198,
+          558
+        ],
+        [
+          324,
+          684
+        ]
+      ],
+      "resource_id": "android:id/prev",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 110,
+      "size": "126*126",
+      "signature": "[class]android.widget.ImageButton[resource_id]android:id/prev[text]None[enabled,,]",
+      "view_str": "8681acc904df6be7782cf0d99e217e9b",
+      "content_free_signature": "[class]android.widget.ImageButton[resource_id]android:id/prev"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Next month",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          756,
+          558
+        ],
+        [
+          882,
+          684
+        ]
+      ],
+      "resource_id": "android:id/next",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 111,
+      "size": "126*126",
+      "signature": "[class]android.widget.ImageButton[resource_id]android:id/next[text]None[enabled,,]",
+      "view_str": "3457730547da85c4e31dbc5229ffdf3f",
+      "content_free_signature": "[class]android.widget.ImageButton[resource_id]android:id/next"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        113
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          162,
+          1420
+        ],
+        [
+          918,
+          1568
+        ]
+      ],
+      "resource_id": "android:id/buttonPanel",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ScrollView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 112,
+      "size": "756*148",
+      "signature": "[class]android.widget.ScrollView[resource_id]android:id/buttonPanel[text]None[enabled,,]",
+      "view_str": "8772189c50933448932c5cd623c05649",
+      "content_free_signature": "[class]android.widget.ScrollView[resource_id]android:id/buttonPanel"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        114,
+        115
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          162,
+          1420
+        ],
+        [
+          918,
+          1568
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 112,
+      "temp_id": 113,
+      "size": "756*148",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "0aa05eff626f120b4eda34fd3a200ae3",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          516,
+          1431
+        ],
+        [
+          718,
+          1557
+        ]
+      ],
+      "resource_id": "android:id/button2",
+      "checked": false,
+      "text": "CANCEL",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 113,
+      "temp_id": 114,
+      "size": "202*126",
+      "signature": "[class]android.widget.Button[resource_id]android:id/button2[text]CANCEL[enabled,,]",
+      "view_str": "f29631331eb9bb9878d29008cfc1e7bd",
+      "content_free_signature": "[class]android.widget.Button[resource_id]android:id/button2"
+    },
+    {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          718,
+          1431
+        ],
+        [
+          886,
+          1557
+        ]
+      ],
+      "resource_id": "android:id/button1",
+      "checked": false,
+      "text": "OK",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 113,
+      "temp_id": 115,
+      "size": "168*126",
+      "signature": "[class]android.widget.Button[resource_id]android:id/button1[text]OK[enabled,,]",
+      "view_str": "2a9bb911c89a5b1d3a10f8cfa034c629",
+      "content_free_signature": "[class]android.widget.Button[resource_id]android:id/button1"
+    }
+  ]
+}

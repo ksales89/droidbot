@@ -1,0 +1,49 @@
+{
+  "tag": "2023-05-24_131544",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.markuspage.android.atimetracker",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          70,
+          853
+        ],
+        [
+          1010,
+          1008
+        ]
+      ],
+      "resource_id": "android:id/message",
+      "checked": false,
+      "text": "Successfully backed up the database to the memory card as /storage/emulated/0/timetracker.db",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 12,
+      "size": "940*155",
+      "signature": "[class]android.widget.TextView[resource_id]android:id/message[text]None[enabled,,]",
+      "view_str": "4a150000c342b2e119d225bebb089b5f",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]android:id/message"
+    }
+  },
+  "start_state": "2f327cdabb1e290b5cc635ddf8d62ff9",
+  "stop_state": "2f327cdabb1e290b5cc635ddf8d62ff9",
+  "event_str": "TouchEvent(state=2f327cdabb1e290b5cc635ddf8d62ff9, view=4a150000c342b2e119d225bebb089b5f(Tasks/TextView-Successful))"
+}

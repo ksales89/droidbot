@@ -1,0 +1,49 @@
+{
+  "tag": "2023-05-24_132621",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.markuspage.android.atimetracker",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          70,
+          1243
+        ],
+        [
+          1010,
+          1369
+        ]
+      ],
+      "resource_id": "android:id/text1",
+      "checked": false,
+      "text": "Saturday",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 12,
+      "size": "940*126",
+      "signature": "[class]android.widget.TextView[resource_id]android:id/text1[text]Saturday[enabled,,]",
+      "view_str": "07ea4dff53638bf89ed1c1e4e69ef84b",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]android:id/text1"
+    }
+  },
+  "start_state": "d1b8bdccca156b6e278bfaca463465f9",
+  "stop_state": "f49463190f255557f48b2ea9a8b848b4",
+  "event_str": "TouchEvent(state=d1b8bdccca156b6e278bfaca463465f9, view=07ea4dff53638bf89ed1c1e4e69ef84b(Settings/TextView-Saturday))"
+}

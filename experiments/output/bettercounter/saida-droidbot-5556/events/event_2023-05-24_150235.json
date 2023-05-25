@@ -1,0 +1,49 @@
+{
+  "tag": "2023-05-24_150235",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "04 May 2007",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          675,
+          790
+        ],
+        [
+          767,
+          895
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "4",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 47,
+      "temp_id": 51,
+      "size": "92*105",
+      "signature": "[class]android.view.View[resource_id]None[text]4[enabled,,]",
+      "view_str": "be1a12e0ac34856fd55409f29c511a74",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    }
+  },
+  "start_state": "c761fd851e4845c1de349697fd2601f6",
+  "stop_state": "12371e6927f3a52b2ef3f37753c49d35",
+  "event_str": "TouchEvent(state=c761fd851e4845c1de349697fd2601f6, view=be1a12e0ac34856fd55409f29c511a74(MainActivity/View-4))"
+}

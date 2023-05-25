@@ -1,0 +1,53 @@
+{
+  "tag": "2023-05-24_144448",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        21,
+        22,
+        23
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          945
+        ],
+        [
+          1080,
+          1794
+        ]
+      ],
+      "resource_id": "org.kde.bettercounter.debug:id/bottomSheet",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 20,
+      "size": "1080*849",
+      "signature": "[class]android.widget.LinearLayout[resource_id]org.kde.bettercounter.debug:id/bottomSheet[text]None[enabled,,]",
+      "view_str": "ebf61515218fc5171a478f7aa8716a1e",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]org.kde.bettercounter.debug:id/bottomSheet"
+    }
+  },
+  "start_state": "bc018e26caaae21935b7d8e50f7fd6a4",
+  "stop_state": "bc018e26caaae21935b7d8e50f7fd6a4",
+  "event_str": "TouchEvent(state=bc018e26caaae21935b7d8e50f7fd6a4, view=ebf61515218fc5171a478f7aa8716a1e(MainActivity/LinearLayout-))"
+}

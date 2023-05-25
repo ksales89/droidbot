@@ -1,0 +1,49 @@
+{
+  "tag": "2023-05-24_131553",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.markuspage.android.atimetracker",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          70,
+          928
+        ],
+        [
+          1010,
+          1054
+        ]
+      ],
+      "resource_id": "android:id/text1",
+      "checked": false,
+      "text": "Restore from backup",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 9,
+      "size": "940*126",
+      "signature": "[class]android.widget.TextView[resource_id]android:id/text1[text]Restore from backup[enabled,,]",
+      "view_str": "15ad0f2d373408ad800d16fa4ab321f9",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]android:id/text1"
+    }
+  },
+  "start_state": "c328274fd6e8c6019d28f63933da5846",
+  "stop_state": "2f327cdabb1e290b5cc635ddf8d62ff9",
+  "event_str": "TouchEvent(state=c328274fd6e8c6019d28f63933da5846, view=15ad0f2d373408ad800d16fa4ab321f9(Tasks/TextView-Restore fr))"
+}

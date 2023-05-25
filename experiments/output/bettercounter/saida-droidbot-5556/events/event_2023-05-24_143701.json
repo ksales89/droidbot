@@ -1,0 +1,49 @@
+{
+  "tag": "2023-05-24_143701",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          112,
+          1062
+        ],
+        [
+          842,
+          1188
+        ]
+      ],
+      "resource_id": "android:id/text1",
+      "checked": false,
+      "text": "Weekly",
+      "class": "android.widget.CheckedTextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 2,
+      "temp_id": 4,
+      "size": "730*126",
+      "signature": "[class]android.widget.CheckedTextView[resource_id]android:id/text1[text]Weekly[enabled,,]",
+      "view_str": "4f3e3388070d5c99d0d0812091953fc4",
+      "content_free_signature": "[class]android.widget.CheckedTextView[resource_id]android:id/text1"
+    }
+  },
+  "start_state": "93c9817bba44fbef3529407e6fd5e421",
+  "stop_state": "89df230463e692318fb1aab3239a57ea",
+  "event_str": "TouchEvent(state=93c9817bba44fbef3529407e6fd5e421, view=4f3e3388070d5c99d0d0812091953fc4(MainActivity/CheckedTextView-Weekly))"
+}

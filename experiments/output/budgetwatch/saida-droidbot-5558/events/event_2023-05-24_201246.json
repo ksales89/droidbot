@@ -1,0 +1,49 @@
+{
+  "tag": "2023-05-24_201246",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "protect.budgetwatch",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          146,
+          445
+        ],
+        [
+          531,
+          550
+        ]
+      ],
+      "resource_id": "android:id/date_picker_header_date",
+      "checked": false,
+      "text": "Sat, Apr 8",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 18,
+      "size": "385*105",
+      "signature": "[class]android.widget.TextView[resource_id]android:id/date_picker_header_date[text]Sat, Apr 8[enabled,,]",
+      "view_str": "0bc9d8d2e709a8bb5189fd5fc4dde209",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]android:id/date_picker_header_date"
+    }
+  },
+  "start_state": "fea4210125cec9933ac729379d1c4aab",
+  "stop_state": "5f98a9fb219b58f146644539d42d4559",
+  "event_str": "TouchEvent(state=fea4210125cec9933ac729379d1c4aab, view=0bc9d8d2e709a8bb5189fd5fc4dde209(BudgetActivity/TextView-Sat, Apr 8))"
+}

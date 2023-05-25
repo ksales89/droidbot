@@ -1,0 +1,49 @@
+{
+  "tag": "2023-05-24_122328",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.markuspage.android.atimetracker",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          810,
+          1614
+        ],
+        [
+          978,
+          1740
+        ]
+      ],
+      "resource_id": "android:id/button1",
+      "checked": false,
+      "text": "OK",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 15,
+      "temp_id": 16,
+      "size": "168*126",
+      "signature": "[class]android.widget.Button[resource_id]android:id/button1[text]OK[enabled,,]",
+      "view_str": "25466a76c80fca93b2b1aeae59e9ec2b",
+      "content_free_signature": "[class]android.widget.Button[resource_id]android:id/button1"
+    }
+  },
+  "start_state": "407f31f9478e944a426bbc6497056083",
+  "stop_state": "3f4577a0a7a5d8e74622b1a17a02fa7e",
+  "event_str": "TouchEvent(state=407f31f9478e944a426bbc6497056083, view=25466a76c80fca93b2b1aeae59e9ec2b(Tasks/Button-OK))"
+}

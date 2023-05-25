@@ -1,0 +1,49 @@
+{
+  "tag": "2023-05-24_172307",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "protect.budgetwatch",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "More options",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          975,
+          73
+        ],
+        [
+          1080,
+          199
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 9,
+      "temp_id": 12,
+      "size": "105*126",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "51f2ec0b8235c36231bb1f9b55c0671f",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]None"
+    }
+  },
+  "start_state": "8f6896b4797f7b56496daf40766a61be",
+  "stop_state": "bb29a7b92c61ab4da74a595760f628fe",
+  "event_str": "TouchEvent(state=8f6896b4797f7b56496daf40766a61be, view=51f2ec0b8235c36231bb1f9b55c0671f(MainActivity/ImageView-))"
+}

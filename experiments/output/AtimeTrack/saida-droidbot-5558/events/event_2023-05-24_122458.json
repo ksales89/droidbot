@@ -1,0 +1,49 @@
+{
+  "tag": "2023-05-24_122458",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.markuspage.android.atimetracker",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          356,
+          510
+        ],
+        [
+          1437,
+          616
+        ]
+      ],
+      "resource_id": "android:id/message",
+      "checked": false,
+      "text": "Successfully exported CSV to memory card as timetracker.db",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 12,
+      "size": "1081*106",
+      "signature": "[class]android.widget.TextView[resource_id]android:id/message[text]None[enabled,,]",
+      "view_str": "819e698d7cd1d737af790ee4d74f7e19",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]android:id/message"
+    }
+  },
+  "start_state": "a71cb5af31683ff5956798d2770e1261",
+  "stop_state": "a71cb5af31683ff5956798d2770e1261",
+  "event_str": "TouchEvent(state=a71cb5af31683ff5956798d2770e1261, view=819e698d7cd1d737af790ee4d74f7e19(Report/TextView-Successful))"
+}

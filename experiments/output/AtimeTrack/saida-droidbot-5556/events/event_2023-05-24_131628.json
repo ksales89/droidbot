@@ -1,0 +1,49 @@
+{
+  "tag": "2023-05-24_131628",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.markuspage.android.atimetracker",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          882,
+          220
+        ],
+        [
+          969,
+          277
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 11,
+      "size": "87*57",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "56510b5682f7b17f4ef5de42d8a78154",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]None"
+    }
+  },
+  "start_state": "b73ede4bec06da530d163bd605fe9a7d",
+  "stop_state": "173201b132c39962c7191c08d6042f81",
+  "event_str": "TouchEvent(state=b73ede4bec06da530d163bd605fe9a7d, view=56510b5682f7b17f4ef5de42d8a78154(Tasks/ImageView-))"
+}

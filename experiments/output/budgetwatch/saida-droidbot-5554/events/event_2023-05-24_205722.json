@@ -1,0 +1,49 @@
+{
+  "tag": "2023-05-24_205722",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "protect.budgetwatch",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Previous month",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          131,
+          623
+        ],
+        [
+          257,
+          749
+        ]
+      ],
+      "resource_id": "android:id/prev",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 21,
+      "temp_id": 118,
+      "size": "126*126",
+      "signature": "[class]android.widget.ImageButton[resource_id]android:id/prev[text]None[enabled,,]",
+      "view_str": "928dcb893224e0275796e0ac68d485a3",
+      "content_free_signature": "[class]android.widget.ImageButton[resource_id]android:id/prev"
+    }
+  },
+  "start_state": "0c0cc0534bb935489c65f02e9aecf16e",
+  "stop_state": "0c0cc0534bb935489c65f02e9aecf16e",
+  "event_str": "TouchEvent(state=0c0cc0534bb935489c65f02e9aecf16e, view=928dcb893224e0275796e0ac68d485a3(BudgetActivity/ImageButton-))"
+}

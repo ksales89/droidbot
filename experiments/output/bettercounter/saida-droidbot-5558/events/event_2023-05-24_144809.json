@@ -1,0 +1,49 @@
+{
+  "tag": "2023-05-24_144809",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          112,
+          936
+        ],
+        [
+          842,
+          1062
+        ]
+      ],
+      "resource_id": "android:id/text1",
+      "checked": false,
+      "text": "Monthly",
+      "class": "android.widget.CheckedTextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 13,
+      "temp_id": 14,
+      "size": "730*126",
+      "signature": "[class]android.widget.CheckedTextView[resource_id]android:id/text1[text]Monthly[enabled,,]",
+      "view_str": "70a294fa2567111c80a850b725bb55cf",
+      "content_free_signature": "[class]android.widget.CheckedTextView[resource_id]android:id/text1"
+    }
+  },
+  "start_state": "5357b837a9e8f055a7231b3a33177f69",
+  "stop_state": "7344545d069c3b2c94073bbbfff14600",
+  "event_str": "TouchEvent(state=5357b837a9e8f055a7231b3a33177f69, view=70a294fa2567111c80a850b725bb55cf(MainActivity/CheckedTextView-Monthly))"
+}

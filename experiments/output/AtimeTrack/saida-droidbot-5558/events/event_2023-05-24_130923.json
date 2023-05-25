@@ -1,0 +1,49 @@
+{
+  "tag": "2023-05-24_130923",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.markuspage.android.atimetracker",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          100
+        ],
+        [
+          820,
+          151
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Report for the week Sun, May 14 to Sat, May 20",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "778*51",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]Report for the week Sun, May 14 to Sat, May 20[enabled,,]",
+      "view_str": "ec7aae47b8767d8505e50c573e2a03cc",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    }
+  },
+  "start_state": "5494f8c9339d620125785f40c9ead276",
+  "stop_state": "5494f8c9339d620125785f40c9ead276",
+  "event_str": "TouchEvent(state=5494f8c9339d620125785f40c9ead276, view=ec7aae47b8767d8505e50c573e2a03cc(Report/TextView-Report for))"
+}

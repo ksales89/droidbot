@@ -1,0 +1,49 @@
+{
+  "tag": "2023-05-24_192159",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "protect.budgetwatch",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Select Dates",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          805,
+          73
+        ],
+        [
+          953,
+          199
+        ]
+      ],
+      "resource_id": "protect.budgetwatch:id/action_calendar",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 10,
+      "temp_id": 11,
+      "size": "148*126",
+      "signature": "[class]android.widget.TextView[resource_id]protect.budgetwatch:id/action_calendar[text]None[enabled,,]",
+      "view_str": "1d55b95ab9523ab6516e84ef10ec2207",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]protect.budgetwatch:id/action_calendar"
+    }
+  },
+  "start_state": "f7b921d097c6efe2b01ff72a702faac0",
+  "stop_state": "6d2d9b5d2569d626d7846a7378c2e252",
+  "event_str": "TouchEvent(state=f7b921d097c6efe2b01ff72a702faac0, view=1d55b95ab9523ab6516e84ef10ec2207(BudgetActivity/TextView-))"
+}

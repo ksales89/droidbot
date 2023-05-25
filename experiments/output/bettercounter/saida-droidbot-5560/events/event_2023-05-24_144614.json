@@ -1,0 +1,49 @@
+{
+  "tag": "2023-05-24_144614",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          810,
+          1073
+        ],
+        [
+          978,
+          1199
+        ]
+      ],
+      "resource_id": "android:id/button1",
+      "checked": false,
+      "text": "SAVE",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 18,
+      "size": "168*126",
+      "signature": "[class]android.widget.Button[resource_id]android:id/button1[text]SAVE[enabled,,]",
+      "view_str": "817a66feee90b4f85116463d3c9219d9",
+      "content_free_signature": "[class]android.widget.Button[resource_id]android:id/button1"
+    }
+  },
+  "start_state": "78182aff31e61b24d8b8db85c340d47b",
+  "stop_state": "78182aff31e61b24d8b8db85c340d47b",
+  "event_str": "TouchEvent(state=78182aff31e61b24d8b8db85c340d47b, view=817a66feee90b4f85116463d3c9219d9(MainActivity/Button-SAVE))"
+}

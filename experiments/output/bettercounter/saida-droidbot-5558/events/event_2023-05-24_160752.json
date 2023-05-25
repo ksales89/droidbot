@@ -1,0 +1,49 @@
+{
+  "tag": "2023-05-24_160752",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          112,
+          936
+        ],
+        [
+          842,
+          1062
+        ]
+      ],
+      "resource_id": "android:id/text1",
+      "checked": false,
+      "text": "Yearly",
+      "class": "android.widget.CheckedTextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 13,
+      "temp_id": 14,
+      "size": "730*126",
+      "signature": "[class]android.widget.CheckedTextView[resource_id]android:id/text1[text]Yearly[enabled,,]",
+      "view_str": "bda65e72d34fc65d7e3f09ed06ab6b3d",
+      "content_free_signature": "[class]android.widget.CheckedTextView[resource_id]android:id/text1"
+    }
+  },
+  "start_state": "6a9c8e680cb728dcc5d616ac62e93125",
+  "stop_state": "9651eecf09f6380bf2b20f6e406e9f38",
+  "event_str": "TouchEvent(state=6a9c8e680cb728dcc5d616ac62e93125, view=bda65e72d34fc65d7e3f09ed06ab6b3d(MainActivity/CheckedTextView-Yearly))"
+}

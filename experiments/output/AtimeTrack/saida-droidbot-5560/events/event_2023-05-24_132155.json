@@ -1,0 +1,49 @@
+{
+  "tag": "2023-05-24_132155",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.markuspage.android.atimetracker",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "More options",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          975,
+          73
+        ],
+        [
+          1080,
+          199
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "105*126",
+      "signature": "[class]android.widget.ImageButton[resource_id]None[text]None[enabled,,]",
+      "view_str": "1a86b6cd1019fd4b16e72d487aea910c",
+      "content_free_signature": "[class]android.widget.ImageButton[resource_id]None"
+    }
+  },
+  "start_state": "be9167742468464869fa810a705be32d",
+  "stop_state": "295d92e9ae259bfaf682cbd00ff2f08a",
+  "event_str": "TouchEvent(state=be9167742468464869fa810a705be32d, view=1a86b6cd1019fd4b16e72d487aea910c(TaskTimes/ImageButton-))"
+}

@@ -1,0 +1,11 @@
+{
+  "tag": "2023-05-24_123858",
+  "event": {
+    "event_type": "key",
+    "log_lines": null,
+    "name": "BACK"
+  },
+  "start_state": "a3deaccc421ea2555d2216616326acd1",
+  "stop_state": "8016b2fef77bb939e6cb2c40fede71f3",
+  "event_str": "KeyEvent(state=a3deaccc421ea2555d2216616326acd1, name=BACK)"
+}

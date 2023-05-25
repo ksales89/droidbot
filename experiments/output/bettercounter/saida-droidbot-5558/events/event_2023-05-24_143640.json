@@ -1,0 +1,49 @@
+{
+  "tag": "2023-05-24_143640",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          210
+        ],
+        [
+          1080,
+          1794
+        ]
+      ],
+      "resource_id": "org.kde.bettercounter.debug:id/recycler",
+      "checked": false,
+      "text": null,
+      "class": "androidx.recyclerview.widget.RecyclerView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 10,
+      "size": "1080*1584",
+      "signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]org.kde.bettercounter.debug:id/recycler[text]None[enabled,,]",
+      "view_str": "e9718e6cbd09c2dc60d39202d557a5f8",
+      "content_free_signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]org.kde.bettercounter.debug:id/recycler"
+    }
+  },
+  "start_state": "3fa4e7944d12b200d4e88b98b05f5905",
+  "stop_state": "3fa4e7944d12b200d4e88b98b05f5905",
+  "event_str": "TouchEvent(state=3fa4e7944d12b200d4e88b98b05f5905, view=e9718e6cbd09c2dc60d39202d557a5f8(MainActivity/RecyclerView-))"
+}

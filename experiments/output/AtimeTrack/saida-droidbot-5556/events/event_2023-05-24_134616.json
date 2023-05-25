@@ -1,0 +1,49 @@
+{
+  "tag": "2023-05-24_134616",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.markuspage.android.atimetracker",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "12 May 2023",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          633,
+          887
+        ],
+        [
+          749,
+          992
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "12",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 51,
+      "temp_id": 63,
+      "size": "116*105",
+      "signature": "[class]android.view.View[resource_id]None[text]12[enabled,,]",
+      "view_str": "8233f028c111ee9956603ea6ba5bbec3",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    }
+  },
+  "start_state": "4250dfdcf26bc8c592d99a07a6e9a8c2",
+  "stop_state": "836821d7279ccce972b1edb6bf0057a5",
+  "event_str": "TouchEvent(state=4250dfdcf26bc8c592d99a07a6e9a8c2, view=8233f028c111ee9956603ea6ba5bbec3(EditTime/View-12))"
+}

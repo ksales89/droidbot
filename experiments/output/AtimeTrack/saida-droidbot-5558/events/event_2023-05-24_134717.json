@@ -1,0 +1,52 @@
+{
+  "tag": "2023-05-24_134717",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.markuspage.android.atimetracker",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        19,
+        20
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          525
+        ],
+        [
+          1080,
+          627
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 8,
+      "temp_id": 18,
+      "size": "1080*102",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "02dba86965fcd65c28a4e92c144b1589",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    }
+  },
+  "start_state": "6c9f9b669635082cf6c883f844c595a7",
+  "stop_state": "ec065ff64ffa4e3677825b1556c8d828",
+  "event_str": "TouchEvent(state=6c9f9b669635082cf6c883f844c595a7, view=02dba86965fcd65c28a4e92c144b1589(Settings/LinearLayout-))"
+}

@@ -1,0 +1,146 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        9f20223 protect.budgetwatch/.MainActivity filter 2c3c320
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+      android.intent.action.CREATE_SHORTCUT:
+        5589d7f protect.budgetwatch/.ShortcutConfigure filter 5f1f14c
+          Action: "android.intent.action.CREATE_SHORTCUT"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.SEARCH:
+        d8e04d9 protect.budgetwatch/.TransactionActivity filter 3c85e9e
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.DEFAULT"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.appwidget.action.APPWIDGET_UPDATE:
+        c511595 protect.budgetwatch/.TransactionExpenseWidget filter 957c6aa
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+
+Registered ContentProviders:
+  protect.budgetwatch/android.support.v4.content.FileProvider:
+    Provider{97b829b protect.budgetwatch/android.support.v4.content.FileProvider}
+
+ContentProvider Authorities:
+  [protect.budgetwatch]:
+    Provider{97b829b protect.budgetwatch/android.support.v4.content.FileProvider}
+      applicationInfo=ApplicationInfo{a440638 protect.budgetwatch}
+
+Key Set Manager:
+  [protect.budgetwatch]
+      Signing KeySets: 36
+
+Packages:
+  Package [protect.budgetwatch] (2be611):
+    userId=10154
+    pkg=Package{4f05376 protect.budgetwatch}
+    codePath=/data/app/~~QzsUOtpTY1HtbbClDB49qQ==/protect.budgetwatch-4O_4eI4ZkA9z4yolJPfNrQ==
+    resourcePath=/data/app/~~QzsUOtpTY1HtbbClDB49qQ==/protect.budgetwatch-4O_4eI4ZkA9z4yolJPfNrQ==
+    legacyNativeLibraryDir=/data/app/~~QzsUOtpTY1HtbbClDB49qQ==/protect.budgetwatch-4O_4eI4ZkA9z4yolJPfNrQ==/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=28 minSdk=14 targetSdk=28
+    versionName=0.21.4
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{4f05376 protect.budgetwatch}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA TEST_ONLY ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[]
+    dataDir=/data/user/0/protect.budgetwatch
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesLibraries:
+      android.test.base
+    usesLibraryFiles:
+      /system/framework/android.test.base.jar
+    timeStamp=2023-05-24 19:20:28
+    firstInstallTime=2023-05-24 19:20:28
+    lastUpdateTime=2023-05-24 19:20:28
+    signatures=PackageSignatures{705ad77 version:2, signatures:[fca2bd71], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA TEST_ONLY ]
+    requested permissions:
+      android.permission.WRITE_EXTERNAL_STORAGE: restricted=true
+      android.permission.CAMERA
+      android.permission.READ_EXTERNAL_STORAGE: restricted=true
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.INTERNET
+      android.permission.ACCESS_MEDIA_LOCATION
+    install permissions:
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+    User 0: ceDataInode=132788 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.CAMERA: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_MEDIA_LOCATION: granted=false, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+  queries via intent:
+  queryable via interaction:
+    User 0:
+
+Package Changes:
+  Sequence number=504
+  User 0:
+    seq=0, package=com.google.android.permissioncontroller
+    seq=1, package=com.android.systemui
+    seq=4, package=com.google.android.cellbroadcastreceiver
+    seq=113, package=com.google.android.inputmethod.latin
+    seq=118, package=com.google.android.sdksetup
+    seq=150, package=com.google.android.apps.tachyon
+    seq=173, package=com.google.android.apps.youtube.music
+    seq=177, package=com.google.android.partnersetup
+    seq=400, package=com.android.settings
+    seq=408, package=com.google.android.youtube
+    seq=418, package=com.google.android.apps.docs
+    seq=428, package=com.google.android.gsf
+    seq=434, package=com.google.android.calendar
+    seq=435, package=com.android.camera2
+    seq=436, package=com.android.nfc
+    seq=438, package=com.android.traceur
+    seq=439, package=com.android.stk
+    seq=440, package=com.google.android.apps.maps
+    seq=442, package=com.google.android.apps.photos
+    seq=443, package=com.google.android.apps.messaging
+    seq=448, package=com.google.android.apps.wellbeing
+    seq=462, package=com.google.android.gm
+    seq=476, package=com.google.android.projection.gearhead
+    seq=477, package=com.google.android.setupwizard
+    seq=482, package=com.google.android.videos
+    seq=483, package=com.android.vending
+    seq=486, package=com.google.android.syncadapters.contacts
+    seq=500, package=com.google.android.gms
+    seq=501, package=com.google.android.googlequicksearchbox
+    seq=502, package=protect.budgetwatch
+    seq=503, package=io.github.ylimit.droidbotapp
+
+
+Dexopt state:
+  [protect.budgetwatch]
+    path: /data/app/~~QzsUOtpTY1HtbbClDB49qQ==/protect.budgetwatch-4O_4eI4ZkA9z4yolJPfNrQ==/base.apk
+      x86: [status=run-from-apk] [reason=unknown]
+
+
+Compiler stats:
+  [protect.budgetwatch]
+    (No recorded stats)
+
+APEX session state:
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+

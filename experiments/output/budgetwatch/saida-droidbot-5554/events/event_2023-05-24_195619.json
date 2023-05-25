@@ -1,0 +1,49 @@
+{
+  "tag": "2023-05-24_195619",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "protect.budgetwatch",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "26 May 2023",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          711,
+          1170
+        ],
+        [
+          826,
+          1275
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "26",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 54,
+      "temp_id": 80,
+      "size": "115*105",
+      "signature": "[class]android.view.View[resource_id]None[text]26[enabled,,]",
+      "view_str": "2aa7e0e63dce7f81139eab1802379a2a",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    }
+  },
+  "start_state": "f3254643269420f1c7b5a639a0e7bb6b",
+  "stop_state": "535bd066f81437cf5b9f704d310bd5b7",
+  "event_str": "TouchEvent(state=f3254643269420f1c7b5a639a0e7bb6b, view=2aa7e0e63dce7f81139eab1802379a2a(BudgetActivity/View-26))"
+}

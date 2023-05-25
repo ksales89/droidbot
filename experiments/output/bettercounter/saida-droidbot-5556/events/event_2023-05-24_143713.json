@@ -1,0 +1,52 @@
+{
+  "tag": "2023-05-24_143713",
+  "event": {
+    "event_type": "scroll",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        14
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          112,
+          936
+        ],
+        [
+          968,
+          1062
+        ]
+      ],
+      "resource_id": "org.kde.bettercounter.debug:id/spinnerInterval",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.Spinner",
+      "scrollable": true,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 11,
+      "temp_id": 13,
+      "size": "856*126",
+      "signature": "[class]android.widget.Spinner[resource_id]org.kde.bettercounter.debug:id/spinnerInterval[text]None[enabled,,]",
+      "view_str": "0ff4f2955a0f21630acf9cf4cdc5f14b",
+      "content_free_signature": "[class]android.widget.Spinner[resource_id]org.kde.bettercounter.debug:id/spinnerInterval"
+    },
+    "direction": "UP"
+  },
+  "start_state": "817cb3f5a473e0cc28d1a56402dccff0",
+  "stop_state": "d21b6e99fcbd67d64799aed1644d911a",
+  "event_str": "ScrollEvent(state=817cb3f5a473e0cc28d1a56402dccff0, view=0ff4f2955a0f21630acf9cf4cdc5f14b(MainActivity/Spinner-), direction=UP)"
+}

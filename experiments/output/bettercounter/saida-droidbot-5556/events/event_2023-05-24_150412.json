@@ -1,0 +1,49 @@
+{
+  "tag": "2023-05-24_150412",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          162,
+          532
+        ],
+        [
+          918,
+          618
+        ]
+      ],
+      "resource_id": "android:id/text1",
+      "checked": false,
+      "text": "2003",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 15,
+      "size": "756*86",
+      "signature": "[class]android.widget.TextView[resource_id]android:id/text1[text]2003[enabled,,]",
+      "view_str": "99d5395e04cde132b0ca73eece6e9f58",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]android:id/text1"
+    }
+  },
+  "start_state": "7587e4313988a8ead75134a1226f62c5",
+  "stop_state": "36ee4d084afe10a2d3a180f9458b9b66",
+  "event_str": "TouchEvent(state=7587e4313988a8ead75134a1226f62c5, view=99d5395e04cde132b0ca73eece6e9f58(MainActivity/TextView-2003))"
+}

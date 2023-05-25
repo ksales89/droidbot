@@ -1,0 +1,50 @@
+{
+  "tag": "2023-05-24_132024",
+  "event": {
+    "event_type": "long_touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.markuspage.android.atimetracker",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          352,
+          850
+        ],
+        [
+          984,
+          968
+        ]
+      ],
+      "resource_id": "com.markuspage.android.atimetracker:id/task_edit_name_edit",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.EditText",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 9,
+      "temp_id": 11,
+      "size": "632*118",
+      "signature": "[class]android.widget.EditText[resource_id]com.markuspage.android.atimetracker:id/task_edit_name_edit[text]None[enabled,,]",
+      "view_str": "01b1fa826de8382d3e9801c9a29b223f",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.markuspage.android.atimetracker:id/task_edit_name_edit"
+    },
+    "duration": 2000
+  },
+  "start_state": "2b58de78fc5cd78502507baf0d775f81",
+  "stop_state": "2b58de78fc5cd78502507baf0d775f81",
+  "event_str": "LongTouchEvent(state=2b58de78fc5cd78502507baf0d775f81, view=01b1fa826de8382d3e9801c9a29b223f(Tasks/EditText-))"
+}

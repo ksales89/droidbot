@@ -1,0 +1,49 @@
+{
+  "tag": "2023-05-24_122434",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.markuspage.android.atimetracker",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          771,
+          987
+        ],
+        [
+          978,
+          1113
+        ]
+      ],
+      "resource_id": "android:id/button1",
+      "checked": false,
+      "text": "Add task",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 13,
+      "temp_id": 15,
+      "size": "207*126",
+      "signature": "[class]android.widget.Button[resource_id]android:id/button1[text]Add task[enabled,,]",
+      "view_str": "27142951717fa6e8e52e548bea7973e9",
+      "content_free_signature": "[class]android.widget.Button[resource_id]android:id/button1"
+    }
+  },
+  "start_state": "2b58de78fc5cd78502507baf0d775f81",
+  "stop_state": "173201b132c39962c7191c08d6042f81",
+  "event_str": "TouchEvent(state=2b58de78fc5cd78502507baf0d775f81, view=27142951717fa6e8e52e548bea7973e9(Tasks/Button-Add task))"
+}

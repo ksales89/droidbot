@@ -1,0 +1,49 @@
+{
+  "tag": "2023-05-24_122411",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.markuspage.android.atimetracker",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          70,
+          240
+        ],
+        [
+          1010,
+          303
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Open Source Time Tracker",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 9,
+      "size": "940*63",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]Open Source Time Tracker[enabled,,]",
+      "view_str": "8ebfbcc19da65f9b39a87688f252841a",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    }
+  },
+  "start_state": "407f31f9478e944a426bbc6497056083",
+  "stop_state": "407f31f9478e944a426bbc6497056083",
+  "event_str": "TouchEvent(state=407f31f9478e944a426bbc6497056083, view=8ebfbcc19da65f9b39a87688f252841a(Tasks/TextView-Open Sourc))"
+}

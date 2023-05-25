@@ -1,0 +1,49 @@
+{
+  "tag": "2023-05-24_140911",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.markuspage.android.atimetracker",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          63,
+          372
+        ],
+        [
+          519,
+          477
+        ]
+      ],
+      "resource_id": "android:id/date_picker_header_date",
+      "checked": false,
+      "text": "Thu, Apr 13",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 13,
+      "temp_id": 15,
+      "size": "456*105",
+      "signature": "[class]android.widget.TextView[resource_id]android:id/date_picker_header_date[text]Thu, Apr 13[enabled,,]",
+      "view_str": "2f9c7b8107ce3a25a3ec50d82916557b",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]android:id/date_picker_header_date"
+    }
+  },
+  "start_state": "51a87604a1eae1f572c3a1cc28973b23",
+  "stop_state": "51a87604a1eae1f572c3a1cc28973b23",
+  "event_str": "TouchEvent(state=51a87604a1eae1f572c3a1cc28973b23, view=2f9c7b8107ce3a25a3ec50d82916557b(EditTime/TextView-Thu, Apr 1))"
+}

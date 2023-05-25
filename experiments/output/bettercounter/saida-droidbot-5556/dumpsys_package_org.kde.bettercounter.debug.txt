@@ -1,0 +1,129 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        de490b2 org.kde.bettercounter.debug/org.kde.bettercounter.ui.MainActivity filter a140803
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Registered ContentProviders:
+  org.kde.bettercounter.debug/androidx.lifecycle.ProcessLifecycleOwnerInitializer:
+    Provider{ef0f9d5 org.kde.bettercounter.debug/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+
+ContentProvider Authorities:
+  [org.kde.bettercounter.debug.lifecycle-process]:
+    Provider{ef0f9d5 org.kde.bettercounter.debug/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{87775ea org.kde.bettercounter.debug}
+
+Key Set Manager:
+  [org.kde.bettercounter.debug]
+      Signing KeySets: 36
+
+Packages:
+  Package [org.kde.bettercounter.debug] (dc6b0db):
+    userId=10154
+    pkg=Package{bde3778 org.kde.bettercounter.debug}
+    codePath=/data/app/~~mI9Xi86Qx0pHwcgrjUJCpw==/org.kde.bettercounter.debug-7-rIAgJYTEnajUtxUPIrPw==
+    resourcePath=/data/app/~~mI9Xi86Qx0pHwcgrjUJCpw==/org.kde.bettercounter.debug-7-rIAgJYTEnajUtxUPIrPw==
+    legacyNativeLibraryDir=/data/app/~~mI9Xi86Qx0pHwcgrjUJCpw==/org.kde.bettercounter.debug-7-rIAgJYTEnajUtxUPIrPw==/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=10600 minSdk=19 targetSdk=28
+    versionName=1.6 Dev
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{bde3778 org.kde.bettercounter.debug}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[]
+    dataDir=/data/user/0/org.kde.bettercounter.debug
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesLibraries:
+      android.test.base
+    usesLibraryFiles:
+      /system/framework/android.test.base.jar
+    timeStamp=2023-05-24 14:35:32
+    firstInstallTime=2023-05-24 14:35:32
+    lastUpdateTime=2023-05-24 14:35:32
+    signatures=PackageSignatures{1545e51 version:2, signatures:[6784f4e], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.READ_CONTACTS
+      android.permission.READ_EXTERNAL_STORAGE: restricted=true
+      android.permission.WRITE_EXTERNAL_STORAGE: restricted=true
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.ACCESS_MEDIA_LOCATION
+    install permissions:
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+    User 0: ceDataInode=132656 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.READ_CONTACTS: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_MEDIA_LOCATION: granted=true, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+  queries via intent:
+  queryable via interaction:
+    User 0:
+
+Package Changes:
+  Sequence number=515
+  User 0:
+    seq=0, package=com.google.android.permissioncontroller
+    seq=1, package=com.android.systemui
+    seq=4, package=com.google.android.cellbroadcastreceiver
+    seq=113, package=com.google.android.inputmethod.latin
+    seq=118, package=com.google.android.sdksetup
+    seq=131, package=com.google.android.apps.youtube.music
+    seq=153, package=com.google.android.apps.tachyon
+    seq=188, package=com.google.android.partnersetup
+    seq=306, package=com.android.settings
+    seq=357, package=com.google.android.apps.docs
+    seq=411, package=com.google.android.gsf
+    seq=415, package=com.google.android.calendar
+    seq=416, package=com.android.camera2
+    seq=417, package=com.android.nfc
+    seq=419, package=com.android.traceur
+    seq=421, package=com.android.stk
+    seq=432, package=com.google.android.apps.photos
+    seq=435, package=com.google.android.apps.wellbeing
+    seq=451, package=com.google.android.apps.maps
+    seq=453, package=com.google.android.youtube
+    seq=461, package=com.google.android.projection.gearhead
+    seq=467, package=com.google.android.setupwizard
+    seq=472, package=com.google.android.videos
+    seq=479, package=com.google.android.apps.messaging
+    seq=482, package=com.google.android.syncadapters.contacts
+    seq=496, package=com.google.android.gm
+    seq=498, package=com.google.android.googlequicksearchbox
+    seq=499, package=org.kde.bettercounter.debug
+    seq=506, package=com.google.android.gms
+    seq=513, package=com.android.vending
+    seq=514, package=io.github.ylimit.droidbotapp
+
+
+Dexopt state:
+  [org.kde.bettercounter.debug]
+    path: /data/app/~~mI9Xi86Qx0pHwcgrjUJCpw==/org.kde.bettercounter.debug-7-rIAgJYTEnajUtxUPIrPw==/base.apk
+      x86: [status=run-from-apk] [reason=unknown]
+
+
+Compiler stats:
+  [org.kde.bettercounter.debug]
+    (No recorded stats)
+
+APEX session state:
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+

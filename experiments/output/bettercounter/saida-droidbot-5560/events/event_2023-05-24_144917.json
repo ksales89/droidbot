@@ -1,0 +1,49 @@
+{
+  "tag": "2023-05-24_144917",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1028
+        ],
+        [
+          1080,
+          1085
+        ]
+      ],
+      "resource_id": "org.kde.bettercounter.debug:id/chartAverage",
+      "checked": false,
+      "text": "Avg: every 3.50 days",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 20,
+      "temp_id": 22,
+      "size": "1080*57",
+      "signature": "[class]android.widget.TextView[resource_id]org.kde.bettercounter.debug:id/chartAverage[text]Avg: every 3.50 days[enabled,,]",
+      "view_str": "304b741da832dc65db578f22f6ed0149",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.kde.bettercounter.debug:id/chartAverage"
+    }
+  },
+  "start_state": "6f766640d16d450a15c26cd1a07f9f5f",
+  "stop_state": "6f766640d16d450a15c26cd1a07f9f5f",
+  "event_str": "TouchEvent(state=6f766640d16d450a15c26cd1a07f9f5f, view=304b741da832dc65db578f22f6ed0149(MainActivity/TextView-Avg: every))"
+}

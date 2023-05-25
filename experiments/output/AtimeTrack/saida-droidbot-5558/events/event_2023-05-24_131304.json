@@ -1,0 +1,49 @@
+{
+  "tag": "2023-05-24_131304",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.markuspage.android.atimetracker",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          781,
+          954
+        ],
+        [
+          1012,
+          1080
+        ]
+      ],
+      "resource_id": "com.markuspage.android.atimetracker:id/week",
+      "checked": false,
+      "text": "Week 18",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 41,
+      "temp_id": 43,
+      "size": "231*126",
+      "signature": "[class]android.widget.Button[resource_id]com.markuspage.android.atimetracker:id/week[text]Week 18[enabled,,]",
+      "view_str": "57f76f675a7ad6f35bc04b5f5662e4ba",
+      "content_free_signature": "[class]android.widget.Button[resource_id]com.markuspage.android.atimetracker:id/week"
+    }
+  },
+  "start_state": "c783aed1a75b37be53798e738b9d5015",
+  "stop_state": "85fde7093c00559c91994eefa5f33336",
+  "event_str": "TouchEvent(state=c783aed1a75b37be53798e738b9d5015, view=57f76f675a7ad6f35bc04b5f5662e4ba(Report/Button-Week 18))"
+}

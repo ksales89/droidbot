@@ -1,0 +1,49 @@
+{
+  "tag": "2023-05-24_130344",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.markuspage.android.atimetracker",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          582,
+          408
+        ],
+        [
+          1013,
+          465
+        ]
+      ],
+      "resource_id": "android:id/title",
+      "checked": false,
+      "text": "Edit Task",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 8,
+      "size": "431*57",
+      "signature": "[class]android.widget.TextView[resource_id]android:id/title[text]Edit Task[enabled,,]",
+      "view_str": "5262a48691c31748bc05ce5379372dc0",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]android:id/title"
+    }
+  },
+  "start_state": "1b86687d751463158d2171c3801eca12",
+  "stop_state": "7ebac761146e4333eb3a1dba5a2103b0",
+  "event_str": "TouchEvent(state=1b86687d751463158d2171c3801eca12, view=5262a48691c31748bc05ce5379372dc0(Tasks/TextView-Edit Task))"
+}

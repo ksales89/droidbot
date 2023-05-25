@@ -1,0 +1,49 @@
+{
+  "tag": "2023-05-24_145107",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Increase",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          870,
+          242
+        ],
+        [
+          1080,
+          519
+        ]
+      ],
+      "resource_id": "org.kde.bettercounter.debug:id/increaseButton",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 11,
+      "temp_id": 19,
+      "size": "210*277",
+      "signature": "[class]android.widget.ImageButton[resource_id]org.kde.bettercounter.debug:id/increaseButton[text]None[enabled,,]",
+      "view_str": "131028d2c4a330df6b850bede7fc60e2",
+      "content_free_signature": "[class]android.widget.ImageButton[resource_id]org.kde.bettercounter.debug:id/increaseButton"
+    }
+  },
+  "start_state": "aa3309f5cf9a52c43e7179dca11ceb24",
+  "stop_state": "fcf68d43cc282ed642cfe9f1867a12ad",
+  "event_str": "TouchEvent(state=aa3309f5cf9a52c43e7179dca11ceb24, view=131028d2c4a330df6b850bede7fc60e2(MainActivity/ImageButton-))"
+}

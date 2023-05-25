@@ -1,0 +1,49 @@
+{
+  "tag": "2023-05-24_131530",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.markuspage.android.atimetracker",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          70,
+          550
+        ],
+        [
+          1010,
+          676
+        ]
+      ],
+      "resource_id": "android:id/text1",
+      "checked": false,
+      "text": "Today",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "940*126",
+      "signature": "[class]android.widget.TextView[resource_id]android:id/text1[text]Today[enabled,,]",
+      "view_str": "9baf08cd2a7c94e466919727ab239baf",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]android:id/text1"
+    }
+  },
+  "start_state": "c4d2c4dbdd1e2900545262339a02ab57",
+  "stop_state": "b73ede4bec06da530d163bd605fe9a7d",
+  "event_str": "TouchEvent(state=c4d2c4dbdd1e2900545262339a02ab57, view=9baf08cd2a7c94e466919727ab239baf(Tasks/TextView-Today))"
+}

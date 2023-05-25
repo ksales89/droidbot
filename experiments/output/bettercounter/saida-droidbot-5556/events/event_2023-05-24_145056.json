@@ -1,0 +1,50 @@
+{
+  "tag": "2023-05-24_145056",
+  "event": {
+    "event_type": "long_touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": true,
+      "bounds": [
+        [
+          112,
+          807
+        ],
+        [
+          968,
+          925
+        ]
+      ],
+      "resource_id": "org.kde.bettercounter.debug:id/editText",
+      "checked": false,
+      "text": "Counter name",
+      "class": "android.widget.EditText",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 11,
+      "temp_id": 12,
+      "size": "856*118",
+      "signature": "[class]android.widget.EditText[resource_id]org.kde.bettercounter.debug:id/editText[text]Counter name[enabled,,]",
+      "view_str": "9ced2da99656544de4c833b90b976193",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]org.kde.bettercounter.debug:id/editText"
+    },
+    "duration": 2000
+  },
+  "start_state": "5d998c75776e89351f7884953e998a5f",
+  "stop_state": "5d998c75776e89351f7884953e998a5f",
+  "event_str": "LongTouchEvent(state=5d998c75776e89351f7884953e998a5f, view=9ced2da99656544de4c833b90b976193(MainActivity/EditText-Counter na))"
+}

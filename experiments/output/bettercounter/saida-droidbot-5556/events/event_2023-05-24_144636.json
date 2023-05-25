@@ -1,0 +1,49 @@
+{
+  "tag": "2023-05-24_144636",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Add counter",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          870,
+          1584
+        ],
+        [
+          1017,
+          1731
+        ]
+      ],
+      "resource_id": "org.kde.bettercounter.debug:id/fab",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 20,
+      "size": "147*147",
+      "signature": "[class]android.widget.ImageButton[resource_id]org.kde.bettercounter.debug:id/fab[text]None[enabled,,]",
+      "view_str": "e62cf10a3622b0f3eac31e6b6062fb81",
+      "content_free_signature": "[class]android.widget.ImageButton[resource_id]org.kde.bettercounter.debug:id/fab"
+    }
+  },
+  "start_state": "a193b02fedf6f32fdcd7c49d1802b4e4",
+  "stop_state": "b7d59fc48dc3bd37b69038c2a025603a",
+  "event_str": "TouchEvent(state=a193b02fedf6f32fdcd7c49d1802b4e4, view=e62cf10a3622b0f3eac31e6b6062fb81(MainActivity/ImageButton-))"
+}

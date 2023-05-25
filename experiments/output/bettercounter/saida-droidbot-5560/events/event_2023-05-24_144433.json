@@ -1,0 +1,49 @@
+{
+  "tag": "2023-05-24_144433",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          422,
+          268
+        ],
+        [
+          658,
+          325
+        ]
+      ],
+      "resource_id": "org.kde.bettercounter.debug:id/nameText",
+      "checked": false,
+      "text": "\"HelloWorld\"",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 15,
+      "size": "236*57",
+      "signature": "[class]android.widget.TextView[resource_id]org.kde.bettercounter.debug:id/nameText[text]\"HelloWorld\"[enabled,,]",
+      "view_str": "2daa60120441257aaa13f8e58325d25b",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.kde.bettercounter.debug:id/nameText"
+    }
+  },
+  "start_state": "bc018e26caaae21935b7d8e50f7fd6a4",
+  "stop_state": "bc018e26caaae21935b7d8e50f7fd6a4",
+  "event_str": "TouchEvent(state=bc018e26caaae21935b7d8e50f7fd6a4, view=2daa60120441257aaa13f8e58325d25b(MainActivity/TextView-\"HelloWorl))"
+}

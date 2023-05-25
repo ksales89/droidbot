@@ -1,0 +1,49 @@
+{
+  "tag": "2023-05-24_150152",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          204,
+          310
+        ],
+        [
+          342,
+          401
+        ]
+      ],
+      "resource_id": "android:id/date_picker_header_year",
+      "checked": false,
+      "text": "2007",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 10,
+      "size": "138*91",
+      "signature": "[class]android.widget.TextView[resource_id]android:id/date_picker_header_year[text]2007[enabled,,]",
+      "view_str": "29ceb561084d2a5e0a993bbc4adf2923",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]android:id/date_picker_header_year"
+    }
+  },
+  "start_state": "c761fd851e4845c1de349697fd2601f6",
+  "stop_state": "76dac0706cc45ba1c0813fc54d606ab3",
+  "event_str": "TouchEvent(state=c761fd851e4845c1de349697fd2601f6, view=29ceb561084d2a5e0a993bbc4adf2923(MainActivity/TextView-2007))"
+}

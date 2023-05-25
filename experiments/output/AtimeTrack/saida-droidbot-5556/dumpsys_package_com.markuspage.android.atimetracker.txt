@@ -1,0 +1,148 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        edeb14 com.markuspage.android.atimetracker/.Tasks filter 8655fbd
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+      android.intent.action.VIEW:
+        f8389b2 com.markuspage.android.atimetracker/.TaskTimes filter a20d03
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+        848a480 com.markuspage.android.atimetracker/.EditTime filter 40d3ab9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+        59c8efe com.markuspage.android.atimetracker/.Report filter dae765f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+        7d388ac com.markuspage.android.atimetracker/.Settings filter 9bdc975
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+
+Key Set Manager:
+  [com.markuspage.android.atimetracker]
+      Signing KeySets: 36
+
+Packages:
+  Package [com.markuspage.android.atimetracker] (a94c167):
+    userId=10154
+    sharedUser=SharedUserSetting{53c5253 com.markuspage.android.atimetracker/10154}
+    pkg=Package{af68790 com.markuspage.android.atimetracker}
+    codePath=/data/app/~~ghyWr6pn5M79jgFonH8jUA==/com.markuspage.android.atimetracker-ZU83LVrmq4qyVNGB8YZ0xQ==
+    resourcePath=/data/app/~~ghyWr6pn5M79jgFonH8jUA==/com.markuspage.android.atimetracker-ZU83LVrmq4qyVNGB8YZ0xQ==
+    legacyNativeLibraryDir=/data/app/~~ghyWr6pn5M79jgFonH8jUA==/com.markuspage.android.atimetracker-ZU83LVrmq4qyVNGB8YZ0xQ==/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=1 minSdk=19 targetSdk=28
+    versionName=1.0
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{af68790 com.markuspage.android.atimetracker}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[]
+    dataDir=/data/user/0/com.markuspage.android.atimetracker
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesLibraries:
+      android.test.base
+    usesLibraryFiles:
+      /system/framework/android.test.base.jar
+    timeStamp=2023-05-24 12:22:41
+    firstInstallTime=2023-05-24 12:22:41
+    lastUpdateTime=2023-05-24 12:22:41
+    signatures=PackageSignatures{1a5c889 version:2, signatures:[6d6378ff], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.VIBRATE
+      android.permission.WRITE_EXTERNAL_STORAGE: restricted=true
+      android.permission.READ_EXTERNAL_STORAGE: restricted=true
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.INTERNET
+      android.permission.ACCESS_MEDIA_LOCATION
+    install permissions:
+      android.permission.INTERNET: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+    User 0: ceDataInode=131420 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+  queries via intent:
+  queryable via interaction:
+    User 0:
+
+Shared users:
+  SharedUser [com.markuspage.android.atimetracker] (53c5253):
+    userId=10154
+    Packages
+      PackageSetting{a94c167 com.markuspage.android.atimetracker/10154}
+    install permissions:
+      android.permission.INTERNET: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+    User 0: 
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_MEDIA_LOCATION: granted=true, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+Package Changes:
+  Sequence number=514
+  User 0:
+    seq=0, package=com.google.android.permissioncontroller
+    seq=1, package=com.android.systemui
+    seq=4, package=com.google.android.cellbroadcastreceiver
+    seq=113, package=com.google.android.inputmethod.latin
+    seq=118, package=com.google.android.sdksetup
+    seq=130, package=com.google.android.apps.youtube.music
+    seq=146, package=com.google.android.apps.tachyon
+    seq=213, package=com.google.android.partnersetup
+    seq=283, package=com.android.settings
+    seq=316, package=com.google.android.gsf
+    seq=341, package=com.google.android.apps.docs
+    seq=385, package=com.google.android.calendar
+    seq=390, package=com.android.camera2
+    seq=412, package=com.android.nfc
+    seq=426, package=com.android.traceur
+    seq=428, package=com.android.stk
+    seq=430, package=com.google.android.apps.messaging
+    seq=433, package=com.google.android.apps.photos
+    seq=436, package=com.google.android.apps.wellbeing
+    seq=451, package=com.google.android.gm
+    seq=454, package=com.google.android.projection.gearhead
+    seq=455, package=com.google.android.setupwizard
+    seq=476, package=com.google.android.videos
+    seq=477, package=com.google.android.apps.maps
+    seq=479, package=com.google.android.youtube
+    seq=485, package=com.google.android.syncadapters.contacts
+    seq=498, package=com.google.android.googlequicksearchbox
+    seq=499, package=com.markuspage.android.atimetracker
+    seq=506, package=com.google.android.gms
+    seq=512, package=com.android.vending
+    seq=513, package=io.github.ylimit.droidbotapp
+
+
+Dexopt state:
+  [com.markuspage.android.atimetracker]
+    path: /data/app/~~ghyWr6pn5M79jgFonH8jUA==/com.markuspage.android.atimetracker-ZU83LVrmq4qyVNGB8YZ0xQ==/base.apk
+      x86: [status=run-from-apk] [reason=unknown]
+
+
+Compiler stats:
+  [com.markuspage.android.atimetracker]
+    (No recorded stats)
+
+APEX session state:
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+

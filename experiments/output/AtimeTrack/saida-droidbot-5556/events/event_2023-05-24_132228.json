@@ -1,0 +1,49 @@
+{
+  "tag": "2023-05-24_132228",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.markuspage.android.atimetracker",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1091,
+          946
+        ],
+        [
+          1237,
+          1080
+        ]
+      ],
+      "resource_id": "com.markuspage.android.atimetracker:id/increment_week",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 41,
+      "temp_id": 44,
+      "size": "146*134",
+      "signature": "[class]android.widget.ImageButton[resource_id]com.markuspage.android.atimetracker:id/increment_week[text]None[enabled,,]",
+      "view_str": "2ba4352d97dd11a43d0d1061a79aa47e",
+      "content_free_signature": "[class]android.widget.ImageButton[resource_id]com.markuspage.android.atimetracker:id/increment_week"
+    }
+  },
+  "start_state": "f26883b9e955ed39ce9553677e0c55fe",
+  "stop_state": "5494f8c9339d620125785f40c9ead276",
+  "event_str": "TouchEvent(state=f26883b9e955ed39ce9553677e0c55fe, view=2ba4352d97dd11a43d0d1061a79aa47e(Report/ImageButton-))"
+}

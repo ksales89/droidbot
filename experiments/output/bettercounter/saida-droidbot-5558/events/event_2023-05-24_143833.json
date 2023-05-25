@@ -1,0 +1,49 @@
+{
+  "tag": "2023-05-24_143833",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.kde.bettercounter.debug",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          608,
+          1073
+        ],
+        [
+          810,
+          1199
+        ]
+      ],
+      "resource_id": "android:id/button2",
+      "checked": false,
+      "text": "CANCEL",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 17,
+      "size": "202*126",
+      "signature": "[class]android.widget.Button[resource_id]android:id/button2[text]CANCEL[enabled,,]",
+      "view_str": "800fc06d879c6088edb93e1961db91ad",
+      "content_free_signature": "[class]android.widget.Button[resource_id]android:id/button2"
+    }
+  },
+  "start_state": "bf7ebaa0ce9729acab1ff759e7f11ebc",
+  "stop_state": "3fa4e7944d12b200d4e88b98b05f5905",
+  "event_str": "TouchEvent(state=bf7ebaa0ce9729acab1ff759e7f11ebc, view=800fc06d879c6088edb93e1961db91ad(MainActivity/Button-CANCEL))"
+}

@@ -1,0 +1,49 @@
+{
+  "tag": "2023-05-24_132247",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.markuspage.android.atimetracker",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1220,
+          189
+        ],
+        [
+          1315,
+          244
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Tue",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 15,
+      "size": "95*55",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]Tue[enabled,,]",
+      "view_str": "4ccf44d99d52e4a40ca30162293974f8",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    }
+  },
+  "start_state": "f26883b9e955ed39ce9553677e0c55fe",
+  "stop_state": "f26883b9e955ed39ce9553677e0c55fe",
+  "event_str": "TouchEvent(state=f26883b9e955ed39ce9553677e0c55fe, view=4ccf44d99d52e4a40ca30162293974f8(Report/TextView-Tue))"
+}

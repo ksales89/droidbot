@@ -1,0 +1,49 @@
+{
+  "tag": "2023-05-24_122341",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.markuspage.android.atimetracker",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          597,
+          987
+        ],
+        [
+          771,
+          1113
+        ]
+      ],
+      "resource_id": "android:id/button2",
+      "checked": false,
+      "text": "Cancel",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 13,
+      "temp_id": 14,
+      "size": "174*126",
+      "signature": "[class]android.widget.Button[resource_id]android:id/button2[text]Cancel[enabled,,]",
+      "view_str": "cd15b7165a01cc8973af5c7a6ecf87cf",
+      "content_free_signature": "[class]android.widget.Button[resource_id]android:id/button2"
+    }
+  },
+  "start_state": "2b58de78fc5cd78502507baf0d775f81",
+  "stop_state": "3f4577a0a7a5d8e74622b1a17a02fa7e",
+  "event_str": "TouchEvent(state=2b58de78fc5cd78502507baf0d775f81, view=cd15b7165a01cc8973af5c7a6ecf87cf(Tasks/Button-Cancel))"
+}

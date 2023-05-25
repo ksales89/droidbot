@@ -1,0 +1,49 @@
+{
+  "tag": "2023-05-24_122414",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.markuspage.android.atimetracker",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          83,
+          303
+        ],
+        [
+          997,
+          1197
+        ]
+      ],
+      "resource_id": "com.markuspage.android.atimetracker:id/usage",
+      "checked": false,
+      "text": " Detailed instructions are at https://github.com/netmackan/ATimeTracker\n\n \u2022 Create some tasks using the menu\n \u2022 Tap a task to start timing; tap it again to stop timing\n \u2022 Use the context menu for a task to list times\n \u2022 Change configuration options with the menu\n \u2022 View a weekly report with the menu\n \n Tapping a different task switches timing to the other task.\n \n The task context menu allows you to edit tasks (change their names), delete tasks (including all of the time history for that task!), or view the time log for that task.\n \n Time Log view\n \n The time log for a task is filtered on the same range that you selected for the main task view, so if you filtered the task view for This Week and you open the time log, then you'll only see times for this week. Use the Add Time menu item to manually insert times into the time log. Use the context menu for a time to delete or edit a time range.\n \n Note that TimeTracker will not prevent you from creating times that overlap with times in other (or the same) task. ",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 12,
+      "size": "914*894",
+      "signature": "[class]android.widget.TextView[resource_id]com.markuspage.android.atimetracker:id/usage[text]None[enabled,,]",
+      "view_str": "4ba1e0ded482698085caec63c452ef2b",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.markuspage.android.atimetracker:id/usage"
+    }
+  },
+  "start_state": "407f31f9478e944a426bbc6497056083",
+  "stop_state": "407f31f9478e944a426bbc6497056083",
+  "event_str": "TouchEvent(state=407f31f9478e944a426bbc6497056083, view=4ba1e0ded482698085caec63c452ef2b(Tasks/TextView- Detailed ))"
+}

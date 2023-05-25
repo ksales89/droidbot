@@ -1,0 +1,49 @@
+{
+  "tag": "2023-05-24_140545",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.markuspage.android.atimetracker",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Previous month",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          48,
+          550
+        ],
+        [
+          174,
+          676
+        ]
+      ],
+      "resource_id": "android:id/prev",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 114,
+      "size": "126*126",
+      "signature": "[class]android.widget.ImageButton[resource_id]android:id/prev[text]None[enabled,,]",
+      "view_str": "dbf94c20120252c5135c29edf3bfce46",
+      "content_free_signature": "[class]android.widget.ImageButton[resource_id]android:id/prev"
+    }
+  },
+  "start_state": "1bf0d8c34eb494d1ba7153c9163042c7",
+  "stop_state": "1bf0d8c34eb494d1ba7153c9163042c7",
+  "event_str": "TouchEvent(state=1bf0d8c34eb494d1ba7153c9163042c7, view=dbf94c20120252c5135c29edf3bfce46(EditTime/ImageButton-))"
+}

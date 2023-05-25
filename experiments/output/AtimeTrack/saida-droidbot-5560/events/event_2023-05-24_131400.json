@@ -1,0 +1,49 @@
+{
+  "tag": "2023-05-24_131400",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.markuspage.android.atimetracker",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          556,
+          946
+        ],
+        [
+          702,
+          1080
+        ]
+      ],
+      "resource_id": "com.markuspage.android.atimetracker:id/decrement_week",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 41,
+      "temp_id": 42,
+      "size": "146*134",
+      "signature": "[class]android.widget.ImageButton[resource_id]com.markuspage.android.atimetracker:id/decrement_week[text]None[enabled,,]",
+      "view_str": "3f4d4b883331c016f1d1788d74537bfa",
+      "content_free_signature": "[class]android.widget.ImageButton[resource_id]com.markuspage.android.atimetracker:id/decrement_week"
+    }
+  },
+  "start_state": "b02dba1f741c270f40cc3e44a2bb9799",
+  "stop_state": "6e31d312b30b474f348ae8d693b7a6f6",
+  "event_str": "TouchEvent(state=b02dba1f741c270f40cc3e44a2bb9799, view=3f4d4b883331c016f1d1788d74537bfa(Report/ImageButton-))"
+}
