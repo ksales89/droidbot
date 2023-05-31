@@ -1,38 +1,5 @@
 #!/bin/bash
 
-# Função para instalar APK nos emuladores
-function install_apk() {
-  local apk_path="$1"
-  adb kill-server
-  sleep 5
-  adb start-server
-  sleep 5
-
-  # Iniciar emulador
-  ~/Android/Sdk/emulator/emulator -avd emulator-teste1 -port 5554 -wipe-data -no-snapshot-save &
-  sleep 30 # Aguardar o emulador iniciar
-  ~/Android/Sdk/emulator/emulator -avd emulator-teste2 -port 5556 -wipe-data -no-snapshot-save &
-  sleep 30 # Aguardar o emulador iniciar
-  ~/Android/Sdk/emulator/emulator -avd emulator-teste3 -port 5558 -wipe-data -no-snapshot-save &
-  sleep 30 # Aguardar o emulador iniciar
-  ~/Android/Sdk/emulator/emulator -avd emulator-teste4 -port 5560 -wipe-data -no-snapshot-save &
-  sleep 30 # Aguardar o emulador iniciar
-
-  adb -s emulator-5554 install -r -d -g $apk_path
-  sleep 10
-
-  # Instalar APK com permissões de gravação no sdcard
-  adb -s emulator-5556 install -r -d -g $apk_path
-  sleep 10 # Aguardar o emulador instalar
-
-  adb -s emulator-5558 install -r -d -g $apk_path
-  sleep 10 # Aguardar o emulador instalar
-
-  adb -s emulator-5560 install -r -d -g $apk_path
-  sleep 10 # Aguardar o emulador instalar
-
-}
-
 # Função para executar o comando DroidBot nos emuladores
 function run_droidbot() {
   local apk_path="$1"
