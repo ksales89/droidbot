@@ -25,27 +25,36 @@ function copy_coverage_files(){
   local emulator_port="$2"
   local apk_name="$3"
   local coverage_dir="$local_results_dir/emulator_$emulator_port"
+  local time="$4"
 
-  adb -s emulator-$emulator_port pull /sdcard/coverage.ec $local_results_dir/final_coverage-$emulator_port-$apk_name.ec
+  #adb -s emulator-$emulator_port pull /sdcard/coverage.ec $local_results_dir/$time-$emulator_port-$apk_name.ec
+  adb -s emulator-$emulator_port pull /sdcard/coverage.ec $local_results_dir/$apk_name-$time-$emulator_port-coverage.ec
   
 }
 
 # Caminhos e diretórios
-apk_name=tricky_experiment
+apk_name=DailyPill-debug
 apk_path=~/droidbot/experiments/apps/$apk_name.apk
 output_dir=~/Documentos/experiments/output/$apk_name
 local_results_dir=~/droidbot/experiments/results_cov
 
+
 # Iniciar emuladores e instalar APK
-install_apk "$apk_path"
+# install_apk "$apk_path"
 
 # Executar o comando DroidBot nos emuladores
 run_droidbot "$apk_path" "$output_dir"
 
-# Aguardar 2 horas (7200 segundos)
-sleep 7200
+# Aguardar 1 horas (3600 segundos)
+sleep 3600
 
 # Copiar o arquivo coverage.ec dos emuladores para a pasta local
 for emulator_port in 5554 5556 5558 5560; do
-  copy_coverage_files "$local_results_dir" "$emulator_port" "$apk_name"
+  copy_coverage_files "$local_results_dir" "$emulator_port" "$apk_name" "parcial"
+done
+
+sleep 3600
+
+for emulator_port in 5554 5556 5558 5560; do
+  copy_coverage_files "$local_results_dir" "$emulator_port" "$apk_name" "final"
 done
