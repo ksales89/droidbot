@@ -33,7 +33,7 @@ function copy_coverage_files(){
 }
 
 # Caminhos e diretórios
-apk_name=DailyPill-debug
+apk_name=exceer_experiment
 apk_path=~/droidbot/experiments/apps/$apk_name.apk
 output_dir=~/Documentos/experiments/output/$apk_name
 local_results_dir=~/droidbot/experiments/results_cov
