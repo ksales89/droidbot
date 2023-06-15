@@ -17,6 +17,9 @@ function open_emulator() {
   sleep 30 # Aguardar o emulador iniciar
   ~/Android/Sdk/emulator/emulator -avd emulator-teste4 -port 5560 -wipe-data -no-snapshot-save &
   sleep 30 # Aguardar o emulador iniciar
+  ~/Android/Sdk/emulator/emulator -avd emulator-teste5 -port 5562 -wipe-data -no-snapshot-save &
+  sleep 30 # Aguardar o emulador iniciar
+
 
 }
 
