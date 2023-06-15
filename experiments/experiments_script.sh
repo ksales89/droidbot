@@ -36,7 +36,7 @@ function copy_coverage_files() {
   local apk_name="$3"
   local coverage_dir="$local_results_dir/emulator_$emulator_port"
   
-  for emulator_port in 5554 5556 5558 5560; do
+  for emulator_port in 5554 5556 5558 5560 5562; do
     adb -s emulator-$emulator_port pull /sdcard/coverage.ec $local_results_dir/$apk_name-$((i * 10))min-$emulator_port-coverage.ec
     echo "Pulled in: $local_results_dir/$apk_name-$((i * 10))min-$emulator_port-coverage.ec"
   done
