@@ -2,7 +2,7 @@
 
 function install_apk() {
   local apk_path="$1"
-  local emulator_ports=("5554" "5556" "5558" "5560" "5562")
+  local emulator_ports=("5554" "5556" "5558" "5560")
 
   adb kill-server
   sleep 5
@@ -10,7 +10,7 @@ function install_apk() {
   sleep 5
 
   for port in "${emulator_ports[@]}"; do
-    ~/Android/Sdk/emulator/emulator -avd "emulator-teste$port" -port $port -wipe-data -no-snapshot-save &
+    ~/Android/Sdk/emulator/emulator -avd "emulator-$port" -port $port -wipe-data -no-snapshot-save &
     sleep 30 # Aguardar o emulador iniciar
 
     adb -s "emulator-$port" install -r -d -g -t $apk_path
@@ -21,10 +21,11 @@ function install_apk() {
 function run_droidbot() {
   local apk_path="$1"
   local output_dir="$2"
-  local emulator_ports=("5554" "5556" "5558" "5560" "5562")
+  local emulator_ports=("5554" "5556" "5558" "5560")
+  #local emulator_ports=("5564" "5566" "5568" "5570" "5572")
 
   for port in "${emulator_ports[@]}"; do
-    # python3 ~/DroidbotX/droidbot/start_q_learning.py -a $apk_path -d "emulator-teste$port" -is_emulator -o "$output_dir/saida-droidbot-$port" -policy gym -t 7200 &
+    #python3 ~/DroidbotX/droidbot/start_q_learning.py -a $apk_path -d "emulator-$port" -is_emulator -o "$output_dir/saida-droidbot-$port" -policy gym -t 7200 &
     droidbot -a $apk_path -d emulator-$port -is_emulator -o $output_dir/saida-droidbot-$port -t 7200 &
     sleep 5
   done
@@ -36,7 +37,7 @@ function copy_coverage_files() {
   local apk_name="$3"
   local coverage_dir="$local_results_dir/emulator_$emulator_port"
   
-  for emulator_port in 5554 5556 5558 5560 5562; do
+  for emulator_port in 5554 5556 5558 5560; do
     adb -s emulator-$emulator_port pull /sdcard/coverage.ec $local_results_dir/$apk_name-$((i * 10))min-$emulator_port-coverage.ec
     echo "Pulled in: $local_results_dir/$apk_name-$((i * 10))min-$emulator_port-coverage.ec"
   done
@@ -71,9 +72,9 @@ for apk_path in $apk_paths; do
   run_droidbot "$apk_path" "$output_dir"
 
   # Copiar o arquivo coverage.ec dos emuladores para a pasta local
-  for ((i = 0; i < 12; i++)); do
-    sleep 5
+  for ((i = 0; i <= 12; i++)); do
     copy_coverage_files "$local_results_directory" "$emulator_port" "$apk_name"   
-    sleep 595 # Aguardar 10 minutos
+    sleep 600 # Aguardar 10 minutos
   done
+  
 done
